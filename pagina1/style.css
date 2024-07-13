@@ -1,0 +1,15 @@
+#img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+#img2{
+    position: relative;
+    width: 10vw;
+    height: 7vw;
+    margin-top: 19vw;
+    margin-left: 44vw;
+}
