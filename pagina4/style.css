@@ -1,0 +1,97 @@
+@font-face {
+    font-family: letra1;
+    src: url(font/Myriad\ Pro\ Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(font/Myriad\ Pro\ Regular.ttf);
+}
+#img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+#cuadroBlanco{
+    text-align: center;
+    position: relative;
+    background: white;
+    width: 48vw;
+    height: 36vw;
+    margin-top: 7vw;
+    margin-left: 25vw;
+    border-radius: 3vw;
+}
+#k{
+    margin-top: 2vw;
+    width: 7vw;
+    height: 5vw;
+}
+#media{
+    margin-top: 0.1vw;
+    font-size: 1vw;
+    color: rgb(93, 90, 90);
+    font-family: letra1;
+}
+#bienvenido{
+    margin-top: -0.2vw;
+    font-family: letra2;
+    font-size: 2vw;
+}
+#datos{
+    margin-top: -1vw;
+    font-size: 1vw;
+    font-family: letra1;
+    color: rgb(93, 90, 90);
+}
+#user{
+    position: absolute;
+    display: flex;
+    top: 17.5vw;
+    left: 9vw;
+    color: black;
+    font-family: letra1;
+}
+#usuario{
+    margin-top: 2vw;
+    width: 30vw;
+    height: 2vw;
+    border-radius: 1vw;
+}
+#contra{
+    position: absolute;
+    display: flex;
+    top: 22.5vw;
+    left: 9vw;
+    color: black;
+    font-family: letra1;
+}
+#contraseña{
+    margin-top: 2.5vw;
+    width: 30vw;
+    height: 2vw;
+    border-radius: 1vw;
+}
+#boton1{
+    position: absolute;
+    left: 18vw;
+    top: 28vw;
+    width: 14vw;
+    height: 4vw;
+    border-radius: 2vw;
+    text-decoration: none;
+    background: orangered;
+}
+#ingresar{
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+#problemas{
+    margin-top: 6.5vw;
+    font-family: letra1;
+    font-size: 1vw;
+    color:  rgb(93, 90, 90);
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: letra1;
+    src: url(font/Myriad\ Pro\ Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(font/Myriad\ Pro\ Regular.ttf);
+}
+#img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+#cuadroBlanco{
+    width: 50vw;
+    height: 25vw;
+    background: white;
+    text-align: center;
+    position: relative;
+    margin-top: 12.5vw;
+    margin-left: 25vw;
+    border-radius: 3vw;
+}
+#k{
+    margin-top: 2vw;
+    width: 7vw;
+    height: 5vw;
+}
+#media{
+    margin-top: 0.1vw;
+    font-size: 1vw;
+    color: rgb(93, 90, 90);
+    font-family: letra1;
+}
+#bienvenido{
+    margin-top: -0.5vw;
+    font-size: 2vw;
+    font-family: letra2;
+    color: black;
+}
+#fotoProfe{
+    margin-top: -1vw;
+    width: 5vw;
+    height: 5vw;
+}
+#pedrito{
+    margin-top: 0.8vw;
+    font-size: 2vw;
+    font-family: letra2;
+    color: black;
+}
+#user{
+    margin-top: -1.1vw;
+    font-size: 1vw;
+    font-family: letra1;
+    color: rgb(93, 90, 90);
+}
