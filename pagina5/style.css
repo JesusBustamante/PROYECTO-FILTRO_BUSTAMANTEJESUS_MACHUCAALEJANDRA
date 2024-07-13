@@ -1,0 +1,18 @@
+#img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+#cuadroBlanco{
+    width: 40vw;
+    height: 20vw;
+    background: white;
+    text-align: center;
+    position: relative;
+    margin-top: 7vw;
+    margin-left: 25vw;
+    border-radius: 3vw;
+}
