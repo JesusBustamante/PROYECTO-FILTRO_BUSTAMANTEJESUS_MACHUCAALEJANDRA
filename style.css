@@ -1,0 +1,191 @@
+@font-face {
+    font-family: regular;
+    src: url(Fonts/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+    font-family: mlight;
+    src: url(Fonts/MyriadPro-Light.woff);
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 0vw;
+    left: 0.7vw;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 98vw;
+    height: 3.5vw;
+    border-bottom: 0.15vw  solid gray ;
+}
+
+.menu img {
+    width: 1.5vw;
+}
+
+#img9 {
+    position: absolute;
+    left: 95vw;
+    width: 2.7vw;
+}
+
+#img8 {
+    position: absolute;
+    left: 93vw;
+    width: 1vw;
+}
+
+#img7 {
+    position: absolute;
+    left: 91vw;
+    width: 1vw;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin-left: 3vw;
+}
+
+#img4 {
+    width: 2vw;
+}
+
+.texto {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    font-family: regular;
+    font-size: 1.3vw;
+}
+
+#p5 {
+    position: absolute;
+    left: 78vw;
+}
+
+#p4 {
+    position: absolute;
+    left: 65vw;
+}
+
+#p3 {
+    position: absolute;
+    left: 37.5vw;
+}
+
+#p2 {
+    position: absolute;
+    left: 24.5vw;
+}
+
+#p1 {
+    position: absolute;
+    left: 11.5vw;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cp1 {
+    font-family: regular;
+    font-size: 1.9vw;
+}
+
+#cp2 {
+    font-family: mlight;
+    font-size: 1.25vw;
+    margin-top: -1vw;
+}
+
+.tittles {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 90vw;
+    margin-left: -7vw;
+    font-family: regular;
+    font-size: 1.25vw;
+}
+
+#tp2 {
+    margin-left: 3vw;
+}
+
+#tp3 {
+    margin-left: 3vw;
+}
+
+#tp6 {
+    margin-right: 2vw;
+}
+
+.casilla1 {
+    width: 90vw;
+    height: 3.5vw;
+    margin-left: -5vw;
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+}
+
+.casilla2 {
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 1.5vw;
+    margin-left: -5vw;
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+}
+
+.casilla3 {
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 1.5vw;
+    margin-left: -5vw;
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+}
+
+.casilla4 {
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 1.5vw;
+    margin-left: -5vw;
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+}
+
+.casilla5 {
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 1.5vw;
+    margin-left: -5vw;
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+}
+
+.casilla6 {
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 1.5vw;
+    margin-left: -5vw;
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+}
