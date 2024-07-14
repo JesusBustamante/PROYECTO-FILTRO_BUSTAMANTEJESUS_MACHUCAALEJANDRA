@@ -59,6 +59,7 @@
     width: 30vw;
     height: 2vw;
     border-radius: 1vw;
+    border: 0.1vw solid #a3a3a3;
 }
 #contra{
     position: absolute;
@@ -73,6 +74,7 @@
     width: 30vw;
     height: 2vw;
     border-radius: 1vw;
+    border: 0.1vw solid #a3a3a3;
 }
 #boton1{
     position: absolute;
@@ -82,16 +84,17 @@
     height: 4vw;
     border-radius: 2vw;
     text-decoration: none;
-    background: orangered;
+    background: #ff6f2c;
 }
 #ingresar{
     color: white;
     font-size: 1.5vw;
     margin-top: 1vw;
+    font-family: letra1;
 }
 #problemas{
     margin-top: 6.5vw;
     font-family: letra1;
-    font-size: 1vw;
+    font-size: 0.7vw;
     color:  rgb(93, 90, 90);
 }
