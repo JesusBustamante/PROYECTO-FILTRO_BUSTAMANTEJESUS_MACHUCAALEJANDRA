@@ -1,3 +1,12 @@
+@font-face {
+    font-family: letra1;
+    src: url(font/Myriad\ Pro\ Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(font/Myriad\ Pro\ Regular.ttf);
+}
+
 #img{
     position: absolute;
     top: 0;
@@ -68,32 +77,30 @@
 }
 #user{
     position: absolute;
-    display: flex;
-    top: 17.5vw;
-    left: 9vw;
-    color: black;
+    top: 16.7vw;
+    left: 9.5vw;
+    font-size: 1vw;
     font-family: letra1;
 }
 #usuario{
     margin-top: 2vw;
     width: 30vw;
     height: 2vw;
-    border-radius: 1vw;
+    border-radius: 0.8vw;
     border: 0.1vw solid #a3a3a3;
 }
 #contra{
     position: absolute;
-    display: flex;
-    top: 22.5vw;
-    left: 9vw;
-    color: black;
+    font-size: 1vw;
+    top: 21.7vw;
+    left: 9.5vw;
     font-family: letra1;
 }
 #contraseña{
     margin-top: 2.5vw;
     width: 30vw;
     height: 2vw;
-    border-radius: 1vw;
+    border-radius: 0.8vw;
     border: 0.1vw solid #a3a3a3;
 }
 #boton1{
@@ -101,15 +108,15 @@
     left: 18vw;
     top: 28vw;
     width: 14vw;
-    height: 4vw;
+    height: 3vw;
     border-radius: 2vw;
     text-decoration: none;
     background: #ff6f2c;
 }
 #ingresar{
     color: white;
-    font-size: 1.5vw;
-    margin-top: 1vw;
+    font-size: 1.1vw;
+    margin-top: 0.9vw;
     font-family: letra1;
 }
 #problemas{
