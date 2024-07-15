@@ -7,12 +7,13 @@
     src: url(font/Myriad\ Pro\ Regular.ttf);
 }
 
-.container {
+.container1 {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    max-height: 100vh;
 }
 
 #img{
