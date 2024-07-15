@@ -25,21 +25,12 @@
     background: black;
 }
 
-.logito {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
 #logoatras {
     position: absolute;
     width: 10vw;
     height: 7vw;
+    top: 22vw;
+    left: 45vw;
 }
 
 #cuadroBlanco{
