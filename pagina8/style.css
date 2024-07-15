@@ -107,14 +107,14 @@
     width: 6vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-left: 9.5vw;
+    margin-left: 17.5vw;
 }
 
 #cuadroTexto{
-    margin-left: 5vw;
+    margin-left: 12vw;
     font-size: 1vw;
-    width: 14vw;
-    height: 4vw;
+    width: 18vw;
+    height: 5vw;
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
@@ -125,16 +125,169 @@
     font-size: 1.5vw;
     font-family: letra2;
     margin-top: -7.7vw;
-    margin-left: 29vw;
+    margin-left: 46.5vw;
 }
 
 #cuadroTexto2{
-    position: relative;
-    margin-left: 25vw;
+    margin-top: -1vw;
+    margin-left: 41vw;
     font-size: 1vw;
-    width: 14vw;
-    height: 4vw;
+    width: 18vw;
+    height: 5vw;
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+}
+
+#categoria{
+    width: 8vw;
+    font-size: 1.5vw;
+    font-family: letra2;
+    margin-top: -7.7vw;
+    margin-left: 76vw;
+}
+
+#cuadroTexto3{
+    margin-top: -1vw;
+    position: relative;
+    margin-left: 70vw;
+    font-size: 1vw;
+    width: 18vw;
+    height: 5vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+}
+
+#fechaI{
+    margin-top: 3vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    font-family: letra2;
+    margin-left: 17vw;
+}
+
+#cuadroTexto4{
+    margin-left: 12vw;
+    font-size: 1vw;
+    width: 18vw;
+    height: 5vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+}
+
+#fechaT{
+    width: 15vw;
+    font-size: 1.5vw;
+    font-family: letra2;
+    margin-top: -7.7vw;
+    margin-left: 43.5vw;
+}
+
+#cuadroTexto5{
+    margin-top: -1vw;
+    margin-left: 41vw;
+    font-size: 1vw;
+    width: 18vw;
+    height: 5vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+}
+
+#formula{
+    width: 8vw;
+    font-size: 1.5vw;
+    font-family: letra2;
+    margin-top: -7.7vw;
+    margin-left: 76vw;
+}
+
+#cuadroTexto6{
+    margin-top: -1vw;
+    position: relative;
+    margin-left: 70vw;
+    font-size: 1vw;
+    width: 18vw;
+    height: 5vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+}
+
+#frecuencia{
+    margin-top: 4vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    font-family: letra2;
+    margin-left: 17.5vw;
+}
+
+#cuadroTexto7{
+    margin-left: 12vw;
+    font-size: 1vw;
+    width: 18vw;
+    height: 5vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+}
+
+#cumplimiento{
+    width: 15vw;
+    font-size: 1.5vw;
+    font-family: letra2;
+    margin-top: -7.7vw;
+    margin-left: 45.5vw;
+}
+
+#cuadroTexto8{
+    margin-top: -1vw;
+    margin-left: 41vw;
+    font-size: 1vw;
+    width: 18vw;
+    height: 5vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+}
+
+#area{
+    width: 8vw;
+    font-size: 1.5vw;
+    font-family: letra2;
+    margin-top: -7.7vw;
+    margin-left: 77.5vw;
+}
+
+#cuadroTexto9{
+    margin-top: -1vw;
+    position: relative;
+    margin-left: 70vw;
+    font-size: 1vw;
+    width: 18vw;
+    height: 5vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+}
+
+#boton{
+    position: absolute;
+    text-align: center;
+    left: 43vw;
+    top: 45vw;
+    width: 14vw;
+    height: 3vw;
+    border-radius: 2vw;
+    text-decoration: none;
+    background: #ff6f2c;
+}
+#añadir{
+
+    color: white;
+    font-size: 1.1vw;
+    margin-top: 0.9vw;
+    font-family: letra1;
 }
