@@ -15,14 +15,13 @@
     animation-name: logo;
     animation-duration: 1.5s;
     animation-delay: 1s;
-    animation-timing-function: linear;g
+    animation-timing-function: linear;
 }
 
 @keyframes logo {
     0% {opacity: 1;}
     50% {opacity: 0;}
-    99% {opacity: 1;}
-    100% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 @keyframes cuadro {
@@ -43,6 +42,7 @@
     animation-duration: 0.5s;
     animation-delay: 3s;
     opacity: 0;
+    animation-fill-mode: forwards;
 }
 #k{
     margin-top: 2vw;
