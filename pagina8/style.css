@@ -108,7 +108,6 @@
     font-size: 1.5vw;
     font-family: letra2;
     margin-left: 9.5vw;
-    border: 1px solid red;
 }
 
 #cuadroTexto{
@@ -121,13 +120,12 @@
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
 }
 
-#indicador2{
+#descripcion{
     width: 8vw;
     font-size: 1.5vw;
     font-family: letra2;
     margin-top: -7.7vw;
     margin-left: 29vw;
-    border: 1px solid red;
 }
 
 #cuadroTexto2{
