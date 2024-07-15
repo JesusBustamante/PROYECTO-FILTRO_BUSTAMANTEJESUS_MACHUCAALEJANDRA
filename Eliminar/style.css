@@ -1,0 +1,112 @@
+@font-face {
+    font-family: letra1;
+    src: url(font/Myriad\ Pro\ Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(font/Myriad\ Pro\ Regular.ttf);
+}
+#contenedor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 3.5vw;
+    border-bottom: 0.15vw  solid #a3a3a3 ;
+}
+
+.menu img {
+    width: 1.5vw;
+}
+
+#img9 {
+    position: absolute;
+    left: 95vw;
+    width: 2.7vw;
+}
+
+#img8 {
+    position: absolute;
+    left: 93vw;
+    width: 1vw;
+}
+
+#img7 {
+    position: absolute;
+    left: 91vw;
+    width: 1vw;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin-left: 3vw;
+}
+
+#img4 {
+    width: 2vw;
+}
+
+.texto {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    font-family: regular;
+    font-size: 1.3vw;
+}
+
+#p5 {
+    position: absolute;
+    left: 78vw;
+}
+
+#p4 {
+    position: absolute;
+    left: 65vw;
+}
+
+#p3 {
+    position: absolute;
+    left: 37.5vw;
+}
+
+#p2 {
+    position: absolute;
+    left: 24.5vw;
+}
+
+#p1 {
+    position: absolute;
+    left: 11.5vw;
+}
+
+#panel{
+    text-align: center;
+    font-family: letra2;
+    font-size: 2vw;
+    color: black;
+}
+
+#buscar{
+    margin-top: 5vw;
+    margin-left: 30vw;
+    width: 40vw;
+    height: 2.5vw;
+    background: #F6F1F1;
+    border-radius: 3vw;
+}
+
+#text{
+    font-size: 1.7vw;
+    color: #868484;
+}
