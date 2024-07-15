@@ -91,6 +91,7 @@
 }
 
 #panel{
+    margin-top: 2vw;
     text-align: center;
     font-family: letra2;
     font-size: 2vw;
@@ -98,15 +99,120 @@
 }
 
 #buscar{
-    margin-top: 5vw;
-    margin-left: 30vw;
-    width: 40vw;
-    height: 2.5vw;
+    margin-top: 4vw;
+    margin-left: 27vw;
+    width: 48vw;
+    height: 4vw;
     background: #F6F1F1;
     border-radius: 3vw;
 }
 
-#text{
-    font-size: 1.7vw;
+#img{
+    width: 5vw;
+    height: 4vw;
+    border-radius: 3vw;
+}
+#cuadroText{
+    position: relative;
+    display: flex;
+    height: 2.5vw;
+    margin-left: 6vw;
+    margin-top: -3.5vw;
+    font-size: 2.5vw;
+    background: #F6F1F1;
+    border: none;
+}
+#cuadros{
+    margin-top: -1vw;
+    margin-left: 27vw;
+}
+#cuadrito{
+    margin-top: 5vw;
+    width: 18vw;
+    height: 10vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    margin-left: -14vw;
+    text-align: center;
+}
+#modelado{
+    font-size: 2.3vw;
+    font-family: letra2;
+    color: #868484;
+}
+#boton{
+    margin-left: 3.9vw;
+    margin-top: -1.5vw;
+    background: #FF6F2C;
+    width: 10vw;
+    height: 2.5vw;
+    border-radius: 2vw;
+}
+#eliminar{
+    margin-top: -3.3vw;
+    font-size: 1.5vw;
+    color: white;
+}
+#cuadrito2{
+    margin-top: -10.2vw;
+    width: 18vw;
+    height: 10vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    margin-left: 14vw;
+    text-align: center;
+}
+#finca{
+    font-size: 2.3vw;
+    font-family: letra2;
+    color: #868484;
+}
+#boton2{
+    margin-left: 3.9vw;
+    margin-top: -1.5vw;
+    background: #FF6F2C;
+    width: 10vw;
+    height: 2.5vw;
+    border-radius: 2vw;
+}
+#eliminar2{
+    margin-top: -3.3vw;
+    font-size: 1.5vw;
+    color: white;
+}
+#cuadrito3{
+    margin-top: -10.2vw;
+    width: 18vw;
+    height: 10vw;
+    border: #FF6F2C 2px solid;
+    border-radius: 1vw;
+    box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    margin-left: 42vw;
+    text-align: center;
+}
+#colegios{
+    font-size: 2.3vw;
+    font-family: letra2;
+    color: #868484;
+}
+#boton3{
+    margin-left: 3.9vw;
+    margin-top: -1.5vw;
+    background: #FF6F2C;
+    width: 10vw;
+    height: 2.5vw;
+    border-radius: 2vw;
+}
+#eliminar3{
+    margin-top: -3.3vw;
+    font-size: 1.5vw;
+    color: white;
+}
+#estrato{
+    margin-top: 0.5vw;
+    font-size: 2.3vw;
+    font-family: letra2;
     color: #868484;
 }
