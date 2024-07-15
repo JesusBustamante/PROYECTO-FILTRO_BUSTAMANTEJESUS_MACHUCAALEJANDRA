@@ -1,0 +1,237 @@
+@font-face {
+    font-family: regular;
+    src: url(font/Myriad\ Pro\ Regular.ttf);
+}
+
+@font-face {
+    font-family: mlight;
+    src: url(font/Myriad\ Pro\ Light.otf);
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0vw;
+    left: 0vw;
+    width: 100vw;
+    height: 108vh;
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 3.5vw;
+    border-bottom: 0.15vw  solid #a3a3a3 ;
+}
+
+.menu img {
+    width: 1.5vw;
+}
+
+#img9 {
+    position: absolute;
+    left: 95vw;
+    width: 2.7vw;
+}
+
+#img8 {
+    position: absolute;
+    left: 93vw;
+    width: 1vw;
+}
+
+#img7 {
+    position: absolute;
+    left: 91vw;
+    width: 1vw;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin-left: 3vw;
+}
+
+#img4 {
+    width: 2vw;
+}
+
+.texto {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    font-family: regular;
+    font-size: 1.3vw;
+}
+
+#p5 {
+    position: absolute;
+    left: 78vw;
+}
+
+#p4 {
+    position: absolute;
+    left: 65vw;
+}
+
+#p3 {
+    position: absolute;
+    left: 37.5vw;
+}
+
+#p2 {
+    position: absolute;
+    left: 24.5vw;
+}
+
+#p1 {
+    position: absolute;
+    left: 11.5vw;
+}
+
+.info {
+    position: absolute;
+    top: 3vw;
+    text-align: center;
+}
+
+#panel {
+    font-size: 1.9vw;
+    font-family: regular;
+}
+
+#description {
+    font-size: 1.25vw;
+    font-family: mlight;
+}
+
+#description span {
+    opacity: 0.5;
+}
+
+.formulario {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 15vw;
+    left: 30vw;
+}
+
+.franja1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    height: 4vw;
+    background-color: #ff6f2c;
+    font-family: mlight;
+    color: white;
+    font-size: 1.3VW;
+}
+
+.franja2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    height: 4vw;
+    background-color: #ff6f2c;
+    font-family: mlight;
+    color: white;
+    font-size: 1.3VW;
+}
+
+#fechat {
+    margin-left: -2.5vw;
+}
+
+#formu {
+    margin-left: -4vw;
+}
+
+.franja3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    height: 4vw;
+    background-color: #ff6f2c;
+    font-family: mlight;
+    color: white;
+    font-size: 1.3VW;
+}
+
+.input1 input {
+    font-size: 2vw;
+    height: 5vw;
+    width: 20vw;
+}
+
+#icategoria {
+    margin-left: -1vw;
+}
+
+#ifinicio {
+    margin-left: -1vw;
+}
+
+.input2 input {
+    font-size: 2vw;
+    height: 5vw;
+    width: 20vw;
+}
+
+#iformula {
+    margin-left: -1vw;
+}
+
+#ifrecuencia {
+    margin-left: -1vw;
+}
+
+.input3 input {
+    font-size: 2vw;
+    height: 5vw;
+    width: 29.9vw;
+}
+
+#iarea {
+    margin-left: -1vw;
+}
+
+#envio {
+    width: 80vw;
+    height: 3vw;
+    margin-left: -20.5vw;
+    margin-top: 3vw;
+}
+
+.reporte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: mlight;
+    font-size: 1,3vw;
+    margin-top: 3vw;
+    margin-left: 14vw;
+    width: 13vw;
+    height: 3vw;
+    background-color: #ff6f2c;
+    border-radius: 0.8vw;
+}
+
+#options {
+    position: absolute;
+    top: 0vw;
+    left: -19.8vw;
+    width: 19.8vw;
+    height: 4vw;
+    background-color: #ff6f2c;
+}
