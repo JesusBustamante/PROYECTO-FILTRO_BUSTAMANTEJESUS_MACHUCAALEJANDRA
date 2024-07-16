@@ -1,0 +1,172 @@
+@font-face {
+    font-family: mbold;
+    src: url(font/MYRIADPRO-BOLD.woff);
+}
+
+@font-face {
+    font-family: mlight;
+    src: url(font/Myriad\ Pro\ Light.otf);
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0vw;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #5a5a5a, black 75%);;
+}
+
+.salida {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3vw;
+    left: 3vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50vw;
+    background-color: #ff6f2c;
+}
+
+#menu {
+    position: absolute;
+    top: 2.2vw;
+    right: 3vw;
+    width: 4vw;
+}
+
+.namephoto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#photo {
+    width: 20vw;
+    height: 45vw;
+    margin-top: -20vw;
+}
+
+#name {
+    position: absolute;
+    top: 21vw;
+    left: 26.5vw;
+    font-family: mbold;
+    font-size: 5vw;
+    color: white;
+    -webkit-text-stroke: 0.2vw #ff6f2c; 
+}
+
+.divisiones {
+    position: absolute;
+    display: flex;
+    gap: 10vw;
+    top: 40vw;
+}
+
+.raya1 {
+    width: 0.2vw;
+    height: 8vw;
+    margin-right: 10vw;
+    background: linear-gradient(to bottom, black, white 80%);
+}
+
+.raya2 {
+    width: 0.2vw;
+    height: 8vw;
+    background: linear-gradient(to bottom, black, white 80%);
+}
+
+.raya3 {
+    width: 0.2vw;
+    height: 8vw;
+    background: linear-gradient(to bottom, black, white 80%);
+}
+
+.raya4 {
+    width: 0.2vw;
+    height: 8vw;
+    margin-left: 10vw;
+    background: linear-gradient(to bottom, black, white 80%);
+}
+
+#admin {
+    color: white;
+    font-family: mbold;
+    font-size: 2vw;
+    margin-right: -5vw;
+    margin-left: -18vw;
+}
+
+#correo {
+    color: white;
+    font-family: mbold;
+    font-size: 2vw;
+    margin-left: -18.5vw;
+    margin-right: -8vw;
+}
+
+#age {
+    color: white;
+    font-family: mbold;
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-left: -8vw;
+    margin-right: -8vw;
+}
+
+#git {
+    color: white;
+    font-family: mbold;
+    font-size: 2vw;
+    margin-left: -4vw;
+    margin-right: -14vw;
+}
+
+#dev {
+    color: white;
+    font-family: mbold;
+    font-size: 2vw;
+    margin-right: -16vw;
+    margin-left: -3vw;
+}
+
+.datos {
+    position: absolute;
+    display: flex;
+    width: 90vw;
+    color: white;
+    font-family: mlight;
+    font-size: 1wv;
+    top: 45vw;
+}
+
+#car {
+    position: absolute;
+    left: 7.5vw;
+}
+
+#ec {
+    position: absolute;
+    left: 31vw;
+}
+
+#ed {
+    position: absolute;
+    left: 44.4vw;
+}
+
+#pro {
+    position: absolute;
+    left: 56.5vw;
+}
+
+#ar {
+    position: absolute;
+    left: 80vw;
+}
