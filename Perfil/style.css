@@ -15,7 +15,7 @@
     top: 0vw;
     left: 0vw;
     width: 100vw;
-    height: 100vh;
+    height: 49.2vw;
     background: linear-gradient(to bottom, #5a5a5a, black 75%);;
 }
 
@@ -30,6 +30,10 @@
     height: 3vw;
     border-radius: 50vw;
     background-color: #ff6f2c;
+}
+
+.salida img {
+    width: 2vw;
 }
 
 #menu {
@@ -142,7 +146,7 @@
     width: 90vw;
     color: white;
     font-family: mlight;
-    font-size: 1wv;
+    font-size: 1vw;
     top: 45vw;
 }
 
