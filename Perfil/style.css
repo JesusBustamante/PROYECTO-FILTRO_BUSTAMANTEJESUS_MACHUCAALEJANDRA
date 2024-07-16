@@ -8,14 +8,10 @@
     src: url(font/Myriad\ Pro\ Light.otf);
 }
 
-<<<<<<< HEAD
 body{
     overflow: hidden;
 }
-=======
-@media (max-width: 1920px) and (min-width: 432px) {
 
->>>>>>> 4c36d68fad4e184ff5f457a7b1e644aa379473f7
 .container {
     position: absolute;
     display: flex;
