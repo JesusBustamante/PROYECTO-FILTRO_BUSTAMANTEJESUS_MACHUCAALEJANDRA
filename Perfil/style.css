@@ -8,6 +8,8 @@
     src: url(font/Myriad\ Pro\ Light.otf);
 }
 
+@media (max-width: 1920px) and (min-width: 432px) {
+
 .container {
     position: absolute;
     display: flex;
@@ -173,4 +175,182 @@
 #ar {
     position: absolute;
     left: 80vw;
+}
+}
+
+@media (max-width: 431px) {
+
+    .container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 0vw;
+        left: 0vw;
+        width: 100vw;
+        height: 250vw;
+        background: linear-gradient(to bottom, #5a5a5a, black 75%);;
+    }
+
+    .salida {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 3vw;
+        left: 5vw;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50vw;
+        background-color: #ff6f2c;
+    }
+    
+    .salida img {
+        width: 5vw;
+    }
+
+    #menu {
+        position: absolute;
+        top: 2.2vw;
+        right: 3vw;
+        width: 10vw;
+    }
+
+    .namephoto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #photo {
+        width: 50vw;
+        height: 110vw;
+        margin-top: -160vw;
+    }
+    
+    #name {
+        position: absolute;
+        top: 65vw;
+        left: 5vw;
+        font-family: mbold;
+        font-size: 9vw;
+        color: white;
+        -webkit-text-stroke: 0.2vw #ff6f2c; 
+    }
+    
+    .divisiones {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 40vw;
+    }
+    
+    .raya1 {
+        position: absolute;
+        top: 50vw;
+        width: 0.2vw;
+        height: 70vw;
+        margin-right: vw;
+        transform: rotate(90deg);
+        background: linear-gradient(to bottom, black, white 80%);
+    }
+    
+    .raya2 {
+        position: absolute;
+        top: 80vw;
+        width: 0.2vw;
+        height: 70vw;
+        transform: rotate(-90deg);
+        background: linear-gradient(to bottom, black, white 80%);
+    }
+    
+    .raya3 {
+        position: absolute;
+        top: 110vw;
+        width: 0.2vw;
+        height: 70vw;
+        transform: rotate(90deg);
+        background: linear-gradient(to bottom, black, white 80%);
+    }
+    
+    .raya4 {
+        position: absolute;
+        top: 140vw;
+        width: 0.2vw;
+        height: 70vw;
+        transform: rotate(-90deg);
+        background: linear-gradient(to bottom, black, white 80%);
+    }
+    
+    #admin {
+        position: absolute;
+        color: white;
+        font-family: mbold;
+        font-size: 7vw;
+        top: 55vw;
+        margin-right: -5vw;
+        margin-left: -27vw;
+    }
+    
+    #correo {
+        position: absolute;
+        color: white;
+        font-family: mbold;
+        font-size: 7vw;
+        top: 85vw;
+        margin-left: -27vw;
+        margin-right: -8vw;
+    }
+    
+    #age {
+        position: absolute;
+        color: white;
+        font-family: mbold;
+        font-size: 7vw;
+        top: 115vw;
+        margin-left: -4vw;
+        margin-right: -8vw;
+    }
+    
+    #git {
+        position: absolute;
+        color: white;
+        font-family: mbold;
+        font-size: 7vw;
+        top: 145vw;
+        margin-left: -13.5vw;
+        margin-right: -14vw;
+    }
+    
+    #dev {
+        position: absolute;
+        color: white;
+        font-family: mbold;
+        font-size: 7vw;
+        top: 177vw;
+        margin-right: -16vw;
+        margin-left: -17.5vw;
+    }
+    
+    .datos {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90vw;
+        color: white;
+        font-family: mlight;
+        font-size: 3vw;
+        top: 17vw;
+        gap: 20vw;
+    }
+    
+    #car {
+        margin-top: 100vw;
+    }
+    
+    #ar {
+        margin-top: 6vw;
+    }
 }

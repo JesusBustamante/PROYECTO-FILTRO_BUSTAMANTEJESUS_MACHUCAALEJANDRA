@@ -8,6 +8,8 @@
     src: url(font/Myriad\ Pro\ Regular.ttf);
 }
 
+@media (max-width: 1920px) and (min-width: 432px) {
+
 .container {
     position: absolute;
     display: flex;
@@ -46,6 +48,10 @@
     position: absolute;
     left: 91vw;
     width: 1vw;
+}
+
+#options {
+    opacity: 0;
 }
 
 .iconos {
@@ -247,4 +253,267 @@
     width: 84.5vw;
     height: 4vw;
     background-color: #d9d9d9;
+}
+
+}
+
+@media (max-width: 431px) {
+
+    .container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 360vw;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 15vw;
+        margin-left: 5vw;
+        border-bottom: 0.15vw  solid #a3a3a3 ;
+    }
+    
+    #img9 {
+        position: absolute;
+        left: 85vw;
+        width: 12vw;
+    }
+    
+    #img8 {
+        position: absolute;
+        left: 75vw;
+        width: 5vw;
+    }
+    
+    #img7 {
+        position: absolute;
+        left: 65vw;
+        width: 5vw;
+    }
+
+    #img4 {
+        margin-left: 28vw;
+        width: 9vw;
+    }
+    
+    .salida {
+        opacity: 0;
+    }
+ 
+    .info {
+        position: absolute;
+        text-align: center;
+    }
+    
+    #tittle {
+        margin-top: 20vw;
+        font-family: regular;
+        font-size: 5.5vw;
+    }
+    
+    #description {
+        font-family: mlight;
+        font-size: 4vw;
+    }
+
+    .cuadros {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 8vw;
+        top: 45vw;
+    }
+    
+    .cuadros img {
+        width: 15vw;
+    }
+    
+    .cuadro1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-family: regular;
+        font-size: 4vw;
+        width: 80vw;
+        height: 50vw;
+        border: 0.1vw solid black;
+    }
+    
+    #cll {
+        font-family: mlight;
+    }
+    
+    .cuadro2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-family: regular;
+        font-size: 4vw;
+        width: 80vw;
+        height: 50vw;
+        border: 0.1vw solid black;
+    }
+    
+    #number {
+        font-family: mlight;
+    }
+    
+    .cuadro3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-family: regular;
+        font-size: 4vw;
+        width: 80vw;
+        height: 50vw;
+        border: 0.1vw solid black;
+    }
+    
+    #phone {
+        font-family: mlight;
+    }
+    
+    .cuadro4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-family: regular;
+        font-size: 4vw;
+        width: 80vw;
+        height: 50vw;
+        border: 0.1vw solid black;
+    }
+    
+    #email {
+        font-family: mlight;
+    }
+
+    #question {
+        position: absolute;
+        font-family: regular;
+        font-size: 5.5vw;
+        top: 275vw;
+        left: 9.5vw;
+    }
+
+    .franjas {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        font-family: regular;
+        font-size: 4vw;
+        top: 295vw;
+        gap: 4vw;
+    }
+    
+    .franjas img {
+        width: 8vw;
+    }
+    
+    .franja1 {
+        display: flex;
+        align-items: center;
+        width: 82vw;
+        height: 15vw;
+        background-color: #d9d9d9;
+    }
+    
+    .franja2 {
+        display: flex;
+        align-items: center;
+        width: 82vw;
+        height: 15vw;
+        background-color: #d9d9d9;
+    }
+    
+    .franja3 {
+        display: flex;
+        align-items: center;
+        width: 82vw;
+        height: 15vw;
+        background-color: #d9d9d9;
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: space-around;
+        width: 80vw;
+        margin-left: 3vw;
+    }
+    
+    #img4 {
+        width: 2vw;
+    }
+    
+    .texto {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 75vw;
+        font-family: regular;
+        font-size: 1.3vw;
+    }
+    
+    #p5 {
+        position: absolute;
+        left: 78vw;
+    }
+    
+    #p4 {
+        position: absolute;
+        left: 65vw;
+    }
+    
+    #p3 {
+        position: absolute;
+        left: 37.5vw;
+    }
+    
+    #p2 {
+        position: absolute;
+        left: 24.5vw;
+    }
+    
+    #p1 {
+        position: absolute;
+        left: 11.5vw;
+    }
+
+    #options {
+        margin-left: 3vw;
+        width: 10vw;
+    }
+
+    #option {
+        position: absolute;
+        top: 5vw;
+    }
+
+    .check {
+        position: absolute;
+    }
+
+    .hamburguer {
+        position: absolute;
+        top: 15vw;
+        width: 100vw;
+        height: 60vw;
+        background-color: #FDB273;
+        z-index: 1;
+    }
+
 }
