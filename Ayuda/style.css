@@ -1,9 +1,21 @@
+@font-face {
+    font-family: mlight;
+    src: url(font/Myriad\ Pro\ Light.otf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(font/Myriad\ Pro\ Regular.ttf);
+}
+
 .container {
     position: absolute;
+    display: flex;
+    justify-content: center;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 108vh;
 }
 
 .menu {
@@ -93,4 +105,146 @@
     height: 3vw;
     border-radius: 50vw;
     background-color: #ff6f2c;
+}
+
+.salida img {
+    width: 2vw;
+}
+
+.info {
+    position: absolute;
+    text-align: center;
+}
+
+#tittle {
+    margin-top: 8vw;
+    font-family: regular;
+    font-size: 1.9vw;
+}
+
+#description {
+    font-family: mlight;
+    font-size: 1.3vw;
+}
+
+.cuadros {
+    position: absolute;
+    display: flex;
+    gap: 8vw;
+    top: 16vw;
+}
+
+.cuadros img {
+    margin-left: 6.5vw;
+    width: 2vw;
+}
+
+.cuadro1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: regular;
+    font-size: 1.3vw;
+    width: 15vw;
+    height: 15vw;
+    border: 0.1vw solid black;
+}
+
+#cll {
+    font-family: mlight;
+}
+
+.cuadro2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: regular;
+    font-size: 1.3vw;
+    width: 15vw;
+    height: 15vw;
+    border: 0.1vw solid black;
+}
+
+#number {
+    font-family: mlight;
+}
+
+.cuadro3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: regular;
+    font-size: 1.3vw;
+    width: 15vw;
+    height: 15vw;
+    border: 0.1vw solid black;
+}
+
+#phone {
+    font-family: mlight;
+}
+
+.cuadro4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: regular;
+    font-size: 1.3vw;
+    width: 15vw;
+    height: 15vw;
+    border: 0.1vw solid black;
+}
+
+#email {
+    font-family: mlight;
+}
+
+#question {
+    position: absolute;
+    font-family: regular;
+    font-size: 2vw;
+    top: 32vw;
+    left: 8vw;
+}
+
+.franjas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: mlight;
+    font-size: 1.5vw;
+    top: 38vw;
+    gap: 1vw;
+}
+
+.franjas img {
+    width: 3vw;
+}
+
+.franja1 {
+    display: flex;
+    align-items: center;
+    width: 84.5vw;
+    height: 4vw;
+    background-color: #d9d9d9;
+}
+
+.franja2 {
+    display: flex;
+    align-items: center;
+    width: 84.5vw;
+    height: 4vw;
+    background-color: #d9d9d9;
+}
+
+.franja3 {
+    display: flex;
+    align-items: center;
+    width: 84.5vw;
+    height: 4vw;
+    background-color: #d9d9d9;
 }
