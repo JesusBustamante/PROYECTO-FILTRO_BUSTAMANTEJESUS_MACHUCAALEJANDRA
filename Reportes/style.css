@@ -99,6 +99,7 @@
     position: absolute;
     top: 3vw;
     text-align: center;
+    left: 30vw;
 }
 
 #panel {
@@ -218,7 +219,7 @@
     align-items: center;
     color: white;
     font-family: mlight;
-    font-size: 1,3vw;
+    font-size: 1.3vw;
     margin-top: 3vw;
     margin-left: 14vw;
     width: 13vw;
@@ -233,5 +234,23 @@
     left: -19.8vw;
     width: 19.8vw;
     height: 4vw;
+    background-color: #ff6f2c;
+}
+
+select option {
+    font-size: 1.5vw;
+    background-color: #FDB273;
+}
+
+.salida {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5vw;
+    left: 3vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50vw;
     background-color: #ff6f2c;
 }

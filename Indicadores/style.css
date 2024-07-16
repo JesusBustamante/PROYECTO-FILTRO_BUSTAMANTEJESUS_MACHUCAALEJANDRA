@@ -1,10 +1,11 @@
 @font-face {
-    font-family: letra1;
-    src: url(font/Myriad\ Pro\ Light.otf);
-}
-@font-face {
-    font-family: letra2;
+    font-family: regular;
     src: url(font/Myriad\ Pro\ Regular.ttf);
+}
+
+@font-face {
+    font-family: mlight;
+    src: url(font/Myriad\ Pro\ Light.otf);
 }
 
 .container1 {
@@ -62,12 +63,12 @@
     margin-top: 0.1vw;
     font-size: 1vw;
     color: rgb(93, 90, 90);
-    font-family: letra1;
+    font-family: mlight;
 }
 #bienvenido{
     margin-top: -0.5vw;
     font-size: 2vw;
-    font-family: letra2;
+    font-family: regular;
     color: black;
 }
 #fotoProfe{
@@ -78,24 +79,14 @@
 #pedrito{
     margin-top: 0.8vw;
     font-size: 2vw;
-    font-family: letra2;
+    font-family: regular;
     color: black;
 }
 #user{
     margin-top: -1.1vw;
     font-size: 1vw;
-    font-family: letra1;
-    color: rgb(93, 90, 90);
-}
-
-@font-face {
-    font-family: regular;
-    src: url(Fonts/MYRIADPRO-REGULAR.woff);
-}
-
-@font-face {
     font-family: mlight;
-    src: url(Fonts/MyriadPro-Light.woff);
+    color: rgb(93, 90, 90);
 }
 
 .container {
