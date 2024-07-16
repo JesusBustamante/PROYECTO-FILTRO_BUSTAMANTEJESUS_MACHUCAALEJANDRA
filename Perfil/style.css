@@ -8,6 +8,9 @@
     src: url(font/Myriad\ Pro\ Light.otf);
 }
 
+body{
+    overflow: hidden;
+}
 .container {
     position: absolute;
     display: flex;
@@ -15,7 +18,7 @@
     top: 0vw;
     left: 0vw;
     width: 100vw;
-    height: 50vw;
+    height: 53vw;
     background: linear-gradient(to bottom, #5a5a5a, black 75%);;
 }
 
@@ -36,11 +39,39 @@
     width: 2vw;
 }
 
+#boton{
+    text-decoration: none;
+    color: white;
+}
+#cerrarS{
+    top: 2.8vw;
+    width: 100vw;
+    height: 3vw;
+    position: fixed;
+    
+}
+#cerrarSS{
+    margin-top: 3vw;
+    margin-left: 78vw;
+    width: 20vw;
+    height: 3vw;
+    opacity: 0;
+    font-size: 2vw;
+    font-family: mlight;
+}
+#cerrar:checked  ~#cerrarSS {
+    opacity: 1;
+}
+#cerrar{
+    display: none;
+    margin-top: -40vw;
+    margin-left: 167vw;
+}
 #menu {
     position: absolute;
-    top: 2.2vw;
     right: 3vw;
     width: 4vw;
+    top: -0.5vw;
 }
 
 .namephoto {
@@ -51,6 +82,7 @@
 }
 
 #photo {
+    margin-left: -58vw;
     width: 20vw;
     height: 45vw;
     margin-top: -20vw;
