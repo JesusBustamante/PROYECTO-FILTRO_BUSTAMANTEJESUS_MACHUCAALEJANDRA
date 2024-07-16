@@ -20,7 +20,7 @@ body{
     left: 0vw;
     width: 100vw;
     height: 53vw;
-    background: linear-gradient(to bottom, #5a5a5a, black 75%);;
+    background: linear-gradient(to bottom, #5a5a5a, black 75%);
 }
 
 .salida {
@@ -40,39 +40,34 @@ body{
     width: 2vw;
 }
 
-#boton{
-    text-decoration: none;
-    color: white;
-}
-#cerrarS{
-    top: 2.8vw;
-    width: 100vw;
-    height: 3vw;
-    position: fixed;
-    
-}
-#cerrarSS{
-    margin-top: 3vw;
-    margin-left: 78vw;
-    width: 20vw;
-    height: 3vw;
-    opacity: 0;
-    font-size: 2vw;
-    font-family: mlight;
-}
-#cerrar:checked  ~#cerrarSS {
+#cerrar:checked ~#boton {
     opacity: 1;
 }
 #cerrar{
     display: none;
-    margin-top: -40vw;
-    margin-left: 167vw;
+    margin-top: -44vw;
+    margin-left: 18vw;
+    width: 2vw;
+    
 }
-#menu {
+
+#boton{
+    margin-top: 3.3vw;
+    margin-left: 72vw;
+    width: 11vw;
+    height: 3vw;
+    opacity: 0;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: mlight;
+    color: white;
+}
+
+#menu{
     position: absolute;
     right: 3vw;
     width: 4vw;
-    top: -0.5vw;
+    top: 2.5vw;
 }
 
 .namephoto {
@@ -83,7 +78,7 @@ body{
 }
 
 #photo {
-    margin-left: -58vw;
+    margin-left: -51vw;
     width: 20vw;
     height: 45vw;
     margin-top: -20vw;
