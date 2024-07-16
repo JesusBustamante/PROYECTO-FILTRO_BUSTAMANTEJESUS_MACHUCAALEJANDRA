@@ -118,12 +118,18 @@
 
 .menu img {
     width: 1.5vw;
+    margin-top: 0.6vw;
+}
+
+#img4{
+    margin-top: 0.3vw;
 }
 
 #img9 {
     position: absolute;
     left: 95vw;
     width: 2.7vw;
+    top: -0.2vw;
 }
 
 #img8 {
@@ -162,26 +168,36 @@
 #p5 {
     position: absolute;
     left: 78vw;
+    text-decoration: none;
+    color: #000;
 }
 
 #p4 {
     position: absolute;
     left: 65vw;
+    text-decoration: none;
+    color: #000;
 }
 
 #p3 {
     position: absolute;
     left: 37.5vw;
+    text-decoration: none;
+    color: #000;
 }
 
 #p2 {
     position: absolute;
     left: 24.5vw;
+    text-decoration: none;
+    color: #000;
 }
 
 #p1 {
     position: absolute;
     left: 11.5vw;
+    text-decoration: none;
+    color: #000;
 }
 
 .cuerpo {
