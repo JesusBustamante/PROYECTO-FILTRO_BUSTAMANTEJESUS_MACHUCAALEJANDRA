@@ -128,7 +128,8 @@
 
 #cuadroTexto{
     margin-left: 12vw;
-    font-size: 1vw;
+    position: relative;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -140,14 +141,15 @@
     width: 8vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-top: -7.7vw;
+    margin-top: -9vw;
     margin-left: 46.5vw;
 }
 
 #cuadroTexto2{
     margin-top: -1vw;
+    position: relative;
     margin-left: 41vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -159,7 +161,7 @@
     width: 8vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-top: -7.7vw;
+    margin-top: -9vw;
     margin-left: 76vw;
 }
 
@@ -167,7 +169,7 @@
     margin-top: -1vw;
     position: relative;
     margin-left: 70vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -184,8 +186,9 @@
 }
 
 #cuadroTexto4{
+    position: relative;
     margin-left: 12vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -197,14 +200,15 @@
     width: 15vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-top: -7.7vw;
+    margin-top: -9vw;
     margin-left: 43.5vw;
 }
 
 #cuadroTexto5{
+    position: relative;
     margin-top: -1vw;
     margin-left: 41vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -216,7 +220,7 @@
     width: 8vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-top: -7.7vw;
+    margin-top: -9vw;
     margin-left: 76vw;
 }
 
@@ -224,7 +228,7 @@
     margin-top: -1vw;
     position: relative;
     margin-left: 70vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -241,8 +245,9 @@
 }
 
 #cuadroTexto7{
+    position: relative;
     margin-left: 12vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -254,14 +259,15 @@
     width: 15vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-top: -7.7vw;
+    margin-top: -9vw;
     margin-left: 45.5vw;
 }
 
 #cuadroTexto8{
+    position: relative;
     margin-top: -1vw;
     margin-left: 41vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -273,7 +279,7 @@
     width: 8vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-top: -7.7vw;
+    margin-top: -9vw;
     margin-left: 77.5vw;
 }
 
@@ -281,7 +287,7 @@
     margin-top: -1vw;
     position: relative;
     margin-left: 70vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 18vw;
     height: 5vw;
     border: #FF6F2C 2px solid;
@@ -301,7 +307,6 @@
     background: #ff6f2c;
 }
 #añadir{
-
     color: white;
     font-size: 1.1vw;
     margin-top: 0.9vw;

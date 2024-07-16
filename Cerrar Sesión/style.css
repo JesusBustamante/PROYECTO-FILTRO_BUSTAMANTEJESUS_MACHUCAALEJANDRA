@@ -147,8 +147,10 @@
 }
 
 #cerrar{
-    margin-top: -3.5vw;
+    position: relative;
+    top: -3.5vw;
     font-size: 1.4vw;
     font-family: letra1;
     color: white;
+    text-decoration: none;
 }
