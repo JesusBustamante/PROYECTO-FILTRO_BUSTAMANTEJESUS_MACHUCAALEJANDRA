@@ -237,6 +237,42 @@
     left: 8vw;
 }
 
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+section p {
+    overflow: hidden;
+    max-height: 0vw;
+    border-bottom: 0.5vw solid white;
+    padding: -1vw;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+section a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 1.5vw;
+}
+
+section:target p {
+    max-height: 7.5vw;
+    padding: 1.5vw;
+    margin-top: -2vw;
+}
+
+section:not(:target) p {
+    transition-delay:.2s;
+}
+
+section img {
+    position: absolute;
+    left: -10vw;
+}
+
 .franjas {
     position: absolute;
     display: flex;
@@ -245,10 +281,14 @@
     font-size: 1.5vw;
     top: 38vw;
     gap: 1vw;
+    background: #ff6f2c;
+    left: 12vw;
+    width: 80vw;
 }
 
 .franjas img {
     width: 3vw;
+    left: -4vw;
 }
 
 .franja1 {
