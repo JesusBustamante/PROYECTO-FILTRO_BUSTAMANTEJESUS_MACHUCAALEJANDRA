@@ -648,8 +648,12 @@
     height: 3vw;
     border-radius: 20vw;
     top: 47.5vw;
-    color: white;
     background-color: #ff6f2c;
     font-family: mlight;
-    font-size: 1vw;
+}
+
+#añadir1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
 }

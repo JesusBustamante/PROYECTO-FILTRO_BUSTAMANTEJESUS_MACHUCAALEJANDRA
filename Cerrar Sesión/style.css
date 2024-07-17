@@ -38,6 +38,7 @@
     position: absolute;
     left: 95vw;
     width: 2.7vw;
+    top: 0;
 }
 
 #img8 {
@@ -146,8 +147,10 @@
 }
 
 #cerrar{
-    margin-top: -3.5vw;
+    position: relative;
+    top: -3.5vw;
     font-size: 1.4vw;
     font-family: letra1;
     color: white;
+    text-decoration: none;
 }
