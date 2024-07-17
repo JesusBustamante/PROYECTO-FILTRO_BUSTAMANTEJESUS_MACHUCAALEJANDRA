@@ -370,6 +370,9 @@
         height: 15vw;
         border-bottom: 0.15vw  solid #a3a3a3 ;
     }
+    .salida {
+        display: none;
+    }
     
     #img9 {
         position: absolute;
@@ -539,7 +542,7 @@
     
     #cuadroTexto{
         position: absolute;
-        top: 5vw;
+        top: 45vw;
         left: 9vw;
         font-size: 4vw;
         width: 80vw;
