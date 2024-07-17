@@ -60,6 +60,14 @@
     margin-left: 3vw;
 }
 
+#option {
+    display: none;
+}
+
+#options {
+    display: none;
+}
+
 #img4 {
     width: 2vw;
 }
