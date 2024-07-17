@@ -273,3 +273,8 @@ select option {
     border-radius: 50vw;
     background-color: #ff6f2c;
 }
+
+.salida img {
+    width: 2vw;
+    margin-top: -0.1vw;
+}

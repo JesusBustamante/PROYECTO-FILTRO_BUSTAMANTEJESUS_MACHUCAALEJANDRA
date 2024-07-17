@@ -337,3 +337,19 @@
     margin-left: 42vw;
     text-align: center;
 }
+.salida {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5vw;
+    left: 3vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50vw;
+    background-color: #ff6f2c;
+}
+
+.salida img {
+    width: 2vw;
+}
