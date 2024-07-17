@@ -7,6 +7,20 @@
     src: url(font/Myriad\ Pro\ Regular.ttf);
 }
 
+@media (max-width: 1920px) and (min-width: 432px) {
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
 #img{
     position: absolute;
     top: 0;
@@ -15,12 +29,10 @@
     height: 100vh;
     background: black;
 }
+
 #img2{
-    position: relative;
+    position: absolute;
     width: 10vw;
-    height: 7vw;
-    margin-top: 19vw;
-    margin-left: 44vw;
     animation-name: logo;
     animation-duration: 2s;
     animation-delay: 1s;
@@ -39,13 +51,11 @@
 }
 
 #cuadroBlanco{
+    position: absolute;
     text-align: center;
-    position: relative;
     background: white;
     width: 48vw;
     height: 36vw;
-    margin-top: -18vw;
-    margin-left: 25vw;
     border-radius: 3vw;
     animation-name: cuadro;
     animation-duration: 0.5s;
@@ -53,11 +63,13 @@
     opacity: 0;
     animation-fill-mode: forwards;
 }
+
 #k{
     margin-top: 2vw;
     width: 7vw;
     height: 5vw;
 }
+
 #media{
     margin-top: 0.1vw;
     font-size: 1vw;
@@ -124,4 +136,151 @@
     font-family: letra1;
     font-size: 0.7vw;
     color:  rgb(93, 90, 90);
+}
+
+}
+
+@media (max-width: 431px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 189vw;
+    }
+    
+    
+    #img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 189vw;
+        background: black;
+    }
+    
+    #img2{
+        position: absolute;
+        top: 77vw;
+        width: 30vw;
+        animation-name: logo;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-timing-function: ease;
+    }
+
+    @keyframes logo {
+        0% {opacity: 1;}
+        50% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    
+    @keyframes cuadro {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    
+    #cuadroBlanco{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background: white;
+        width: 90vw;
+        height: 150vw;
+        border-radius: 3vw;
+        animation-name: cuadro;
+        animation-duration: 0.5s;
+        animation-delay: 3s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    #k{
+        position: absolute;
+        top: 10vw;
+        width: 25vw;
+    }
+    
+    #media{
+        margin-top: 35vw;
+        font-size: 5.5vw;
+        color: rgb(93, 90, 90);
+        font-family: letra1;
+    }
+
+    #bienvenido{
+        margin-top: -0.2vw;
+        font-family: letra2;
+        font-size: 6vw;
+    }
+
+    #datos{
+        margin-top: -1vw;
+        font-size: 3vw;
+        font-family: letra1;
+        color: rgb(93, 90, 90);
+    }
+
+    #user{
+        position: absolute;
+        top: 70vw;
+        left: 7vw;
+        font-size: 4vw;
+        font-family: letra1;
+    }
+
+    #usuario{
+        margin-top: 7vw;
+        width: 80vw;
+        height: 10vw;
+        border-radius: 0.8vw;
+        border: 0.1vw solid #a3a3a3;
+    }
+    #contra{
+        position: absolute;
+        font-size: 4vw;
+        top: 88vw;
+        left: 7vw;
+        font-family: letra1;
+    }
+    #contraseña{
+        margin-top: 7vw;
+        width: 80vw;
+        height: 10vw;
+        border-radius: 0.8vw;
+        border: 0.1vw solid #a3a3a3;
+    }
+    #boton1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vw;
+        width: 50vw;
+        height: 10vw;
+        border-radius: 10vw;
+        text-decoration: none;
+        background: #ff6f2c;
+    }
+    #ingresar{
+        color: white;
+        font-size: 4vw;
+        font-family: letra1;
+    }
+    #problemas{
+        margin-top: 6.5vw;
+        font-family: letra1;
+        font-size: 2vw;
+        color:  rgb(93, 90, 90);
+    }
+
 }
