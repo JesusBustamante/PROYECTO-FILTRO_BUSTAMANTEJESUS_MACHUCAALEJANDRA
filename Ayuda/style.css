@@ -55,8 +55,12 @@
     width: 1vw;
 }
 
+#option {
+    display: none;
+}
+
 #options {
-    opacity: 0;
+    display: none;
 }
 
 .iconos {
@@ -312,8 +316,84 @@
     }
 
     #img4 {
-        margin-left: 28vw;
-        width: 9vw;
+        position: absolute;
+        top: 6vw;
+        left: 47vw;
+        width: 15vw;
+        transform: scale(3.5);
+        opacity: 1;
+    }
+
+    .menu img {
+        width: 8vw;
+    }
+
+    .iconos {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin-left: 3vw;
+        margin-top: 85vw;
+        z-index: 4;
+        opacity: 0;
+        gap: 4vw;
+    }
+
+    #option:checked ~.iconos {
+        opacity: 1;
+    }
+    
+    .texto a{
+        position: absolute;
+        font-family: mlight;
+        font-size: 5vw;
+        z-index: 1;
+        opacity: 0;
+    }
+
+    #option:checked ~.texto a {
+        opacity: 1;
+    }
+
+    .texto {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #p5 {
+        top: 65vw;
+        margin-left: -56vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #p4 {
+        top: 53vw;
+        margin-left: -43.5vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #p3 {
+        top: 39vw;
+        margin-left: -16vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #p2 {
+        top: 24vw;
+        margin-left: -3vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #p1 {
+        top: 12vw;
+        margin-left: 10vw;
+        text-decoration: none;
+        color: #fff;
     }
     
     .salida {
@@ -516,6 +596,7 @@
     #option {
         position: absolute;
         top: 5vw;
+        display: none;
     }
 
     .check {
@@ -525,10 +606,24 @@
     .hamburguer {
         position: absolute;
         top: 15vw;
+        left: 0vw;
         width: 100vw;
-        height: 60vw;
-        background-color: #FDB273;
+        height: 0vw;
+        background-color: #000;
         z-index: 1;
+    }
+
+    #option:checked ~.hamburguer {
+        width: 100vw;
+        height: 70vw;
+        animation-name: nose;
+        animation-duration: 0s;
+        transition: 0s;
+    }
+      
+    @keyframes nose {
+        from { width: 100vw ; height: 0vw;}
+        to { width: 100vw; height: 70vw;}
     }
 
 }

@@ -8,6 +8,8 @@
     src: url(font/Myriad\ Pro\ Light.otf);
 }
 
+@media (max-width: 1920px) and (min-width: 432px) {
+
 body{
     overflow: hidden;
 }
@@ -206,6 +208,7 @@ body{
 #ar {
     position: absolute;
     left: 80vw;
+}
 }
 
 
