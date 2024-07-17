@@ -1,11 +1,14 @@
 @font-face {
-    font-family: letra1;
+    font-family: mlight;
     src: url(font/Myriad\ Pro\ Light.otf);
 }
 @font-face {
-    font-family: letra2;
+    font-family: regular;
     src: url(font/Myriad\ Pro\ Regular.ttf);
 }
+
+@media (max-width: 1920px) and (min-width: 432px) {
+
 #contenedor{
     position: absolute;
     left: 0;
@@ -311,4 +314,381 @@
     font-size: 1.1vw;
     margin-top: 0.9vw;
     font-family: letra1;
+}
+}
+
+@media (max-width: 431px) {
+
+    #contenedor {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 290vw;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 15vw;
+        border-bottom: 0.15vw  solid #a3a3a3 ;
+    }
+    
+    #img9 {
+        position: absolute;
+        top: 2vw;
+        left: 85vw;
+        width: 12vw;
+    }
+    
+    #img8 {
+        position: absolute;
+        left: 75vw;
+        width: 5vw;
+    }
+    
+    #img7 {
+        position: absolute;
+        left: 65vw;
+        width: 5vw;
+    }
+
+    #img4 {
+        position: absolute;
+        top: 2vw;
+        left: 41vw;
+        width: 15vw;
+        transform: scale(0.5);
+        opacity: 1;
+    }
+
+    .menu img {
+        width: 8vw;
+    }
+
+    .iconos {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin-left: -10vw;
+        margin-top: 85vw;
+        z-index: 4;
+        opacity: 0;
+        gap: 4vw;
+    }
+
+    #option:checked ~.iconos {
+        opacity: 1;
+    }
+
+    #option:not(:checked) ~.iconos {
+        pointer-events: none;
+    }
+    
+    .texto a{
+        position: absolute;
+        font-family: mlight;
+        font-size: 5vw;
+        z-index: 1;
+        opacity: 0;
+    }
+
+    #option:checked ~.texto a {
+        opacity: 1;
+    }
+
+    #option:not(:checked) ~.texto a {
+        pointer-events: none;
+    }
+
+    .texto {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #p5 {
+        top: 65vw;
+        left: 15vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #p4 {
+        top: 53vw;
+        left: 15vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #p3 {
+        top: 39vw;
+        left: 15vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #p2 {
+        top: 24vw;
+        left: 15vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #p1 {
+        top: 12vw;
+        left: 15vw;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .check {
+        position: relative;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    #options {
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    #option {
+        position: absolute;
+        top: 5vw;
+        display: none;
+    }
+
+    .hamburguer {
+        position: absolute;
+        top: 15vw;
+        left: 0vw;
+        width: 100vw;
+        height: 0vw;
+        background-color: #000;
+        z-index: 1;
+    }
+
+    #option:checked ~.hamburguer {
+        width: 100vw;
+        height: 70vw;
+        animation-name: nose;
+        animation-duration: 0s;
+        transition: 0s;
+    }
+      
+    @keyframes nose {
+        from { width: 100vw ; height: 0vw;}
+        to { width: 100vw; height: 70vw;}
+    }
+
+    #panel{
+        text-align: center;
+        font-family: regular;
+        font-size: 5.5vw;
+        color: black;
+    }
+    
+    #indicador{
+        width: 6vw;
+        font-size: 5vw;
+        font-family: regular;
+        margin-left: 38vw;
+    }
+    
+    #cuadroTexto{
+        position: absolute;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #descripcion{
+        width: 8vw;
+        font-size:5vw;
+        font-family: regular;
+        margin-top: 21vw;
+        margin-left: 36vw;
+    }
+    
+    #cuadroTexto2{
+        position: absolute;
+        top: 70vw;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #categoria{
+        width: 8vw;
+        font-size: 5vw;
+        font-family: regular;
+        margin-top: 9vw;
+        margin-left: 37.5vw;
+    }
+    
+    #cuadroTexto3{
+        position: absolute;
+        top: 95vw;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #fechaI{
+        margin-top: 10vw;
+        width: 50vw;
+        font-size: 5vw;
+        font-family: regular;
+        margin-left: 32.5vw;
+    }
+    
+    #cuadroTexto4{
+        position: absolute;
+        top: 120vw;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #fechaT{
+        width: 50vw;
+        font-size: 5vw;
+        font-family: regular;
+        margin-top: 20vw;
+        margin-left: 27vw;
+    }
+    
+    #cuadroTexto5{
+        position: absolute;
+        top: 145vw;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #formula{
+        width: 8vw;
+        font-size: 5vw;
+        font-family: regular;
+        margin-top: 9vw;
+        margin-left: 39vw;
+    }
+    
+    #cuadroTexto6{
+        position: absolute;
+        top: 170vw;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #frecuencia{
+        margin-top: 10vw;
+        width: 10vw;
+        font-size: 5vw;
+        font-family: regular;
+        margin-left: 37vw;
+    }
+    
+    #cuadroTexto7{
+        position: absolute;
+        top: 195vw;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #cumplimiento{
+        width: 15vw;
+        font-size: 5vw;
+        font-family: regular;
+        margin-top: 19vw;
+        margin-left: 33.5vw;
+    }
+    
+    #cuadroTexto8{
+        position: absolute;
+        top: 220vw;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #area{
+        width: 8vw;
+        font-size: 5vw;
+        font-family: regular;
+        margin-top: 10vw;
+        margin-left: 43vw;
+    }
+    
+    #cuadroTexto9{
+        position: absolute;
+        top: 245vw;
+        left: 9vw;
+        font-size: 4vw;
+        width: 80vw;
+        height: 10vw;
+        border: #FF6F2C 2px solid;
+        border-radius: 1vw;
+        box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    }
+    
+    #boton{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: 25vw;
+        top: 270vw;
+        width: 50vw;
+        height: 10vw;
+        border-radius: 2vw;
+        text-decoration: none;
+        background: #ff6f2c;
+    }
+    #añadir{
+        color: white;
+        font-size: 4vw;
+        font-family: mlight;
+    }
+
 }
