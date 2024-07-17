@@ -17,6 +17,22 @@
     height: 100vh;
     background: white;
 }
+.salida {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5vw;
+    left: 3vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50vw;
+    background-color: #ff6f2c;
+}
+
+.salida img {
+    width: 2vw;
+}
 .menu {
     display: flex;
     align-items: center;
@@ -122,6 +138,7 @@
     font-family: letra2;
     font-size: 2vw;
     color: black;
+    margin-top: 0.5vw;
 }
 
 #rectangulo{
@@ -146,13 +163,14 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #descripcion{
     width: 8vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-top: -9vw;
+    margin-top: -8.5vw;
     margin-left: 46.5vw;
 }
 
@@ -166,6 +184,7 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #categoria{
@@ -186,6 +205,7 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #fechaI{
@@ -198,6 +218,7 @@
 
 #cuadroTexto4{
     position: relative;
+    text-align: center;
     margin-left: 12vw;
     font-size: 1.5vw;
     width: 18vw;
@@ -205,18 +226,20 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #fechaT{
     width: 15vw;
     font-size: 1.5vw;
     font-family: letra2;
-    margin-top: -9vw;
+    margin-top: -8.5vw;
     margin-left: 43.5vw;
 }
 
 #cuadroTexto5{
     position: relative;
+    text-align: center;
     margin-top: -1vw;
     margin-left: 41vw;
     font-size: 1.5vw;
@@ -225,6 +248,7 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #formula{
@@ -245,6 +269,7 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #frecuencia{
@@ -264,6 +289,7 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #cumplimiento{
@@ -284,6 +310,7 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #area{
@@ -304,6 +331,7 @@
     border: #FF6F2C 2px solid;
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
+    outline: none;
 }
 
 #boton{
@@ -506,10 +534,12 @@
         font-size: 5vw;
         font-family: regular;
         margin-left: 38vw;
+        
     }
     
     #cuadroTexto{
         position: absolute;
+        top: 5vw;
         left: 9vw;
         font-size: 4vw;
         width: 80vw;
