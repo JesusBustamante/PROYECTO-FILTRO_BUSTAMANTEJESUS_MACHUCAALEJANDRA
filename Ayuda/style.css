@@ -554,6 +554,46 @@ section img {
         left: 9.5vw;
     }
 
+    * {
+        margin: 0vw;
+        padding: 0vw;
+        box-sizing: border-box;
+    }
+    section p {
+        overflow: hidden;
+        max-height: 0vw;
+        border-bottom: 5vw solid white;
+        padding: -1vw;
+        transition: all .2s ease-in-out;
+        color: white;
+        font-family: mlight;
+        font-size: 5vw;
+    }
+    
+    section a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        padding: 1.5vw;
+        font-family: regular;
+        font-size: 6vw;
+    }
+    
+    section:target p {
+        max-height: 35vw;
+        padding: 1.5vw;
+        margin-top: -2vw;
+    }
+    
+    section:not(:target) p {
+        transition-delay:.2s;
+    }
+    
+    section img {
+        position: absolute;
+        left: -10vw;
+    }
+
     .franjas {
         position: absolute;
         display: flex;
@@ -564,33 +604,47 @@ section img {
         gap: 4vw;
     }
     
+    .franjas {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        font-family: mlight;
+        font-size: 1.5vw;
+        top: 290vw;
+        gap: 1vw;
+        background: #ff6f2c;
+        left: 21vw;
+        width: 70vw;
+    }
+    
     .franjas img {
         width: 8vw;
+        left: -10vw;
     }
     
     .franja1 {
         display: flex;
         align-items: center;
-        width: 82vw;
-        height: 15vw;
+        width: 84.5vw;
         background-color: #d9d9d9;
     }
     
     .franja2 {
         display: flex;
         align-items: center;
-        width: 82vw;
-        height: 15vw;
+        width: 84.5vw;
+        height: 4vw;
         background-color: #d9d9d9;
     }
     
     .franja3 {
         display: flex;
         align-items: center;
-        width: 82vw;
-        height: 15vw;
+        width: 84.5vw;
+        height: 4vw;
         background-color: #d9d9d9;
     }
+    
 
     .iconos {
         display: flex;
