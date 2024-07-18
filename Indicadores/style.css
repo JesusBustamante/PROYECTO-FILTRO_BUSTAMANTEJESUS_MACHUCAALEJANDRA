@@ -110,6 +110,14 @@
     100% {z-index: 1;}
 }
 
+#option {
+    display: none;
+}
+
+#options {
+    display: none;
+}
+
 .menu {
     display: flex;
     align-items: center;
