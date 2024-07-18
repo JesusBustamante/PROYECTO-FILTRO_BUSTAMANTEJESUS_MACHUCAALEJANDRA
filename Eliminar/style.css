@@ -136,9 +136,12 @@
 }
 
 #img{
-    width: 5vw;
-    height: 4vw;
+    width: 5.1vw;
+    height: 4.5vw;
     border-radius: 3vw;
+    z-index: 1;
+    margin-left: -43.5vw;
+    margin-top: -1.1vw;
 }
 
 #cuadroText{
@@ -151,6 +154,7 @@
     border: 0.15vw solid #ff6f2c;
     background: #F6F1F1;
     outline: none;
+    text-align: center;
 }
 #cerrar{
     display: none;
@@ -180,12 +184,13 @@
     opacity: 0;
 }
 #modelado{
+    margin-top: 1vw;
     font-size: 2.3vw;
     font-family: letra2;
     color: #868484;
 }
 #boton{
-    margin-top: -1vw;
+    margin-top: 1vw;
     background: #FF6F2C;
     width: 10vw;
     height: 2.5vw;
@@ -212,6 +217,7 @@
     text-align: center;
 }
 #finca{
+    margin-top: 1vw;
     font-size: 2.3vw;
     font-family: letra2;
     color: #868484;
@@ -223,7 +229,7 @@
     opacity: 0;
 }
 #boton2{
-    margin-top: -2vw;
+    margin-top: 1vw;
     background: #FF6F2C;
     width: 10vw;
     height: 2.5vw;
@@ -261,12 +267,13 @@
     text-align: center;
 }
 #colegios{
+    margin-top: 1vw;
     font-size: 2.3vw;
     font-family: letra2;
     color: #868484;
 }
 #boton3{
-    margin-top: -1vw;
+    margin-top: 1vw;
     background: #FF6F2C;
     width: 10vw;
     height: 2.5vw;
@@ -384,7 +391,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 450vw;
+    height: 350vw;
     top: 0vw;
     left: 0vw;
     background: linear-gradient(to bottom, #5a5a5a, black 75%);
@@ -398,6 +405,15 @@ body {
     height: 15vw;
     background: #fff;
     border-bottom: 0.15vw  solid #a3a3a3 ;
+}
+
+#img{
+    width: 11vw;
+    height: 11.3vw;
+    border-radius: 3vw;
+    z-index: 1;
+    margin-left: -71vw;
+    margin-top: 29.9vw;
 }
 
 #img9 {
@@ -478,6 +494,7 @@ body {
     left: -60vw;
     text-decoration: none;
     color: #fff;
+    z-index: 2;
 }
 
 #p4 {
@@ -486,6 +503,7 @@ body {
     left: -60vw;
     text-decoration: none;
     color: #fff;
+    z-index: 2;
 }
 
 #p3 {
@@ -494,6 +512,7 @@ body {
     left: -60vw;
     text-decoration: none;
     color: #fff;
+    z-index: 2;
 }
 
 #p2 {
@@ -502,6 +521,7 @@ body {
     left: -60vw;
     text-decoration: none;
     color: #fff;
+    z-index: 2;
 }
 
 #p1 {
@@ -510,6 +530,7 @@ body {
     left: -60vw;
     text-decoration: none;
     color: #fff;
+    z-index: 2;
 }
 
 .salida {
@@ -541,7 +562,7 @@ body {
     width: 100vw;
     height: 0vw;
     background-color: #000;
-    z-index: 1;
+    z-index: 2;
 }
 
 #option:checked ~.hamburguer {
@@ -576,6 +597,7 @@ body {
     border-radius: 3vw;
     border: 0.5vw solid #ff6f2c;
     outline: none;
+    text-align: center;
 }
 
 #cuadros {
@@ -591,8 +613,8 @@ body {
     background-color: #fff;
     object-fit: cover;
     width: 50vw;
-    height: 50vw;
-    border-radius: 10vw;
+    height: 35vw;
+    border-radius: 2vw;
     border: 0.5vw solid #ff6f2c;
     box-shadow: 1px 10px 15px #ff6f2c;
     margin-top: 5vw;
@@ -625,4 +647,36 @@ body {
     display: none;
 }
 
+#cerrar:checked ~#cuadrito{
+    display: none;
+}
+#cerrar2:checked ~#cuadrito2{
+    display: none;
+}
+#cerrar3:checked ~#cuadrito3{
+    display: none;
+}
+#cerrar4:checked ~#cuadrito4{
+    display: none;
+}
+#cerrar5:checked ~#cuadrito5{
+    display: none;
+}
+#cerrar6:checked ~#cuadrito6{
+    display: none;
+}
+
+#boton, #boton2, #boton3, #boton4, #boton5, #boton6{
+    margin-top: 1vw;
+    background: #FF6F2C;
+    width: 30vw;
+    height: 6vw;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: white;
+    font-family: letra1;
+}
 }
