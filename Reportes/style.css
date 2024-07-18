@@ -188,6 +188,7 @@
     font-size: 2vw;
     height: 5vw;
     width: 20vw;
+    outline: none;
 }
 
 #icategoria {
@@ -202,6 +203,7 @@
     font-size: 2vw;
     height: 5vw;
     width: 20vw;
+    outline: none;
 }
 
 #iformula {
@@ -216,6 +218,7 @@
     font-size: 2vw;
     height: 5vw;
     width: 29.9vw;
+    outline: none;
 }
 
 #iarea {
@@ -227,6 +230,8 @@
     height: 3vw;
     margin-left: -20.5vw;
     margin-top: 3vw;
+    outline: none;
+    font-size: 1vw;
 }
 
 .reporte {
@@ -253,7 +258,11 @@
     left: -19.8vw;
     width: 19.8vw;
     height: 4vw;
+    color: white;
+    font-size: 1.4vw;
+    font-family: mlight;
     background-color: #ff6f2c;
+    outline: none;
 }
 
 select option {
