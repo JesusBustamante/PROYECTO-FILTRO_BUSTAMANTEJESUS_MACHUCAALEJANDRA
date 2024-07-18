@@ -218,6 +218,26 @@ body{
         width: 100vw;
         height: 250vw;
         background: linear-gradient(to bottom, #5a5a5a, black 75%);;
+        overflow: hidden;
+    }
+
+    #boton{
+        position: absolute;
+        top: 5vw;
+        left: 65vw;
+        opacity: 0;
+        font-size: 4vw;
+        text-decoration: none;
+        font-family: mlight;
+        color: white;
+    }
+
+    #cerrar {
+        display: none;
+    }
+
+    #cerrar:checked ~#boton {
+        opacity: 1;
     }
 
     .salida {
