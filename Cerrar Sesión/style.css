@@ -6,6 +6,15 @@
     font-family: letra2;
     src: url(font/Myriad\ Pro\ Regular.ttf);
 }
+
+@font-face {
+    font-family: mbold;
+    src: url(font/MYRIADPRO-BOLD.woff);
+}
+
+@media (max-width: 1920px) and (min-width: 432px) {
+
+
 #contenedor{
     position: absolute;
     left: 0;
@@ -153,4 +162,61 @@
     font-family: letra1;
     color: white;
     text-decoration: none;
+}
+
+}
+
+@media (max-width: 431px) {
+
+    #contenedor {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 189vw;
+        top: 0vw;
+        left: 0vw;
+        background: linear-gradient(to bottom, #5a5a5a, black 60%);
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #cuadro {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 40vw;
+        width: 90vw;
+        height: 90vw;
+        border-radius: 5vw;
+        color: white;
+    }
+
+    #profeImg {
+        width: 80vw;
+        height: 80vw;
+        mask-image: linear-gradient(#000 80%, transparent);
+    }
+
+    #nombre {
+        text-align: center;
+        font-size: 10vw;
+        -webkit-text-stroke: 0.2vw #ff6f2c;
+        font-family: mbold; 
+    }
+
+    #usuario, #boton, #cerrar {
+        display: none;
+    }
+
+    #adios {
+        font-size: 5vw;
+        font-family: letra2;
+    }
+
 }
