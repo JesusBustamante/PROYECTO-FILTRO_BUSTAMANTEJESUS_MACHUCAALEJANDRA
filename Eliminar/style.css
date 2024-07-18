@@ -2,12 +2,25 @@
     font-family: letra1;
     src: url(font/Myriad\ Pro\ Light.otf);
 }
+
 @font-face {
     font-family: letra2;
     src: url(font/Myriad\ Pro\ Regular.ttf);
 }
+
+@font-face {
+    font-family: mbold;
+    src: url(font/MYRIADPRO-BOLD.woff);
+}
+
+@media (max-width: 1920px) and (min-width: 432px) {
+
+
 #contenedor{
     position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     left: 0;
     top: 0;
     width: 100vw;
@@ -50,6 +63,14 @@
     width: 1vw;
 }
 
+#option {
+    display: none;
+}
+
+#options {
+    display: none;
+}
+
 .iconos {
     display: flex;
     justify-content: space-around;
@@ -67,7 +88,7 @@
     flex-direction: row;
     align-items: center;
     width: 75vw;
-    font-family: regular;
+    font-family: letra2;
     font-size: 1.3vw;
 }
 
@@ -114,36 +135,29 @@
     color: black;
 }
 
-#buscar{
-    margin-top: 4vw;
-    margin-left: 27vw;
-    width: 48vw;
-    height: 4vw;
-    background: #F6F1F1;
-    border-radius: 3vw;
-}
-
 #img{
     width: 5vw;
     height: 4vw;
     border-radius: 3vw;
 }
+
 #cuadroText{
-    position: relative;
-    display: flex;
-    height: 2.5vw;
-    margin-left: 6vw;
-    margin-top: -3.5vw;
-    font-size: 2.5vw;
+    position: absolute;
+    top: 9vw;
+    width: 48vw;
+    height: 4vw;
+    font-size: 2vw;
+    border-radius: 2vw;
+    border: 0.15vw solid #ff6f2c;
     background: #F6F1F1;
-    border: none;
+    outline: none;
 }
 #cerrar{
     display: none;
 }
 #cuadros{
     margin-top: -1vw;
-    margin-left: 27vw;
+    margin-left: 14vw;
 }
 #cuadrito{
     display: flex;
@@ -152,7 +166,7 @@
     flex-direction: column;
     font-size: 1.5vw;
     color: white;
-    font-family: mlight;
+    font-family: letra1;
     margin-top: 5vw;
     width: 18vw;
     height: 10vw;
@@ -181,7 +195,7 @@
     align-items: center;
     font-size: 1.5vw;
     color: white;
-    font-family: mlight;
+    font-family: letra1;
 }
 #cuadrito2{
     display: flex;
@@ -262,7 +276,7 @@
     align-items: center;
     font-size: 1.5vw;
     color: white;
-    font-family: mlight;
+    font-family: letra1;
 }
 #eliminar3{
     margin-top: -3.3vw;
@@ -287,7 +301,7 @@
     flex-direction: column;
     font-size: 1.5vw;
     color: white;
-    font-family: mlight;
+    font-family: letra1;
     margin-top: 5vw;
     width: 18vw;
     height: 10vw;
@@ -352,4 +366,263 @@
 
 .salida img {
     width: 2vw;
+}
+
+}
+
+@media (max-width: 431px) {
+
+body {
+    display: grid;
+    padding-block: 128px;
+    place-content: center;
+    gap: 5vw;
+}
+
+#contenedor {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 450vw;
+    top: 0vw;
+    left: 0vw;
+    background: linear-gradient(to bottom, #5a5a5a, black 75%);
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 15vw;
+    background: #fff;
+    border-bottom: 0.15vw  solid #a3a3a3 ;
+}
+
+#img9 {
+    position: absolute;
+    top: 1.5vw;
+    left: 85vw;
+    width: 12vw;
+}
+
+#img8 {
+    position: absolute;
+    left: 75vw;
+    width: 5vw;
+}
+
+#img7 {
+    position: absolute;
+    left: 65vw;
+    width: 5vw;
+}
+
+#img4 {
+    position: absolute;
+    top: 4vw;
+    left: 45vw;
+    width: 9vw;
+    opacity: 1;
+}
+
+.menu img {
+    width: 8vw;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: -9vw;
+    margin-top: 85vw;
+    z-index: 4;
+    opacity: 0;
+    gap: 4vw;
+}
+
+#option:checked ~.iconos {
+    opacity: 1;
+}
+
+#option:not(:checked) ~.iconos {
+    pointer-events: none;
+}
+
+.texto a{
+    position: absolute;
+    font-family: letra1;
+    font-size: 5vw;
+    z-index: 1;
+    opacity: 0;
+}
+
+#option:checked ~.texto a {
+    opacity: 1;
+}
+
+#option:not(:checked) ~.texto a {
+    pointer-events: none;
+}
+
+.texto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#p5 {
+    position: absolute;
+    top: 67.5vw;
+    left: -60vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+#p4 {
+    position: absolute;
+    top: 53vw;
+    left: -60vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+#p3 {
+    position: absolute;
+    top: 39vw;
+    left: -60vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+#p2 {
+    position: absolute;
+    top: 24vw;
+    left: -60vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+#p1 {
+    position: absolute;
+    top: 12vw;
+    left: -60vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+.salida {
+    display: none;
+}
+
+.check {
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+}
+
+#options {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+#option {
+    display: none;
+}
+
+.hamburguer {
+    position: absolute;
+    top: 15vw;
+    left: -2vw;
+    width: 100vw;
+    height: 0vw;
+    background-color: #000;
+    z-index: 1;
+}
+
+#option:checked ~.hamburguer {
+    width: 100vw;
+    height: 70vw;
+    animation-name: nose;
+    animation-duration: 0s;
+    transition: 0s;
+}
+  
+@keyframes nose {
+    from { width: 100vw ; height: 0vw;}
+    to { width: 100vw; height: 70vw;}
+}
+
+#panel {
+    position: absolute;
+    top: 15vw;
+    font-size: 5vw;
+    font-family: mbold;
+    color: #fff;
+}
+
+#cuadroText{
+    position: absolute;
+    display: flex;
+    top: 30vw;
+    width: 80vw;
+    height: 10vw;
+    font-size: 4vw;
+    background: #F6F1F1;
+    border-radius: 3vw;
+    border: 0.5vw solid #ff6f2c;
+    outline: none;
+}
+
+#cuadros {
+    position: absolute;
+    top: 50vw;
+}
+
+#cuadrito, #cuadrito2, #cuadrito3, #cuadrito4, #cuadrito5, #cuadrito6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    object-fit: cover;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 10vw;
+    border: 0.5vw solid #ff6f2c;
+    box-shadow: 1px 10px 15px #ff6f2c;
+    margin-top: 5vw;
+    gap: 5vw;
+}
+
+#cuadrito, #cuadrito2, #cuadrito3, #cuadrito4, #cuadrito5, #cuadrito6 {
+    font-family: mbold;
+}
+
+@keyframes show {
+    from {
+        opacity: 0; scale: 10%;
+    }
+
+    to {
+        opacity: 1; scale: 100%;
+    }
+}
+
+#cuadrito, #cuadrito2, #cuadrito3, #cuadrito4, #cuadrito5, #cuadrito6 {
+    view-timeline-name: --reveal;
+    animation-name: show;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: entry 25% cover 50%;
+}
+
+#cerrar, #cerrar2, #cerrar3, #cerrar4, #cerrar5, #cerrar6 {
+    display: none;
+}
+
 }
