@@ -8,7 +8,7 @@
     src: url(font/Myriad\ Pro\ Regular.ttf);
 }
 
-@media (max-width: 1920px) and (min-width: 432px) {
+@media (max-width: 1980px) and (min-width: 432px) {
 
 .container {
     position: absolute;
@@ -580,7 +580,7 @@ section img {
     }
     
     section:target p {
-        max-height: 35vw;
+        max-height: 65vw;
         padding: 1.5vw;
         margin-top: -2vw;
     }
