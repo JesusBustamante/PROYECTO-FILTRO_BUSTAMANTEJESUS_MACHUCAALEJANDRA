@@ -168,6 +168,10 @@
 
 @media (max-width: 431px) {
 
+    body {
+        overflow: hidden;
+    }
+
     #contenedor {
         position: absolute;
         display: flex;
