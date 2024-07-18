@@ -8,6 +8,11 @@
     src: url(font/Myriad\ Pro\ Light.otf);
 }
 
+@font-face {
+    font-family: mbold;
+    src: url(font/MYRIADPRO-BOLD.woff);
+}
+
 @media (max-width: 1920px) and (min-width: 432px) {
 
 .container1 {
@@ -680,8 +685,9 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 189vw;
+        height: 108vh;
         max-height: 100vh;
+        overflow: hidden;
     }
 
     #img{
@@ -689,7 +695,7 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 189vw;
+        height: 400vw;
         background: black;
     }
     
@@ -755,16 +761,25 @@
 
     .container {
         position: absolute;
+        display: flex;
+        justify-content: center;
         top: 0vw;
         left: 0vw;
         width: 100vw;
-        height: 108vh;
+        height: 450vw;
         z-index: -1;
         animation-name: lastpage;
         animation-delay: 4s;
         animation-duration: 0.5s;
         background-color: white;
         animation-fill-mode: forwards;
+    }
+
+    body {
+        display: grid;
+        padding-block: 128px;
+        place-content: center;
+        gap: 5vw;
     }
     
     @keyframes lastpage {
@@ -942,4 +957,63 @@
     .nose {
         display: none;
     }
+
+    .conjunto {
+        position: absolute;
+        top: 50vw;
+        font-family: regular;
+        font-size: 5vw;
+    }
+
+    .casilla, .casilla1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80vw;
+        height: 10vw;
+        object-fit: cover;
+        border-radius: 2vw;
+        background-color: #ff6f2c;
+        margin-top: 5vw;
+        border: 0.5vw solid #a3a3a3;
+        font-family: mlight;
+        font-size: 6.5vw;
+        text-align: center;
+        transition: 1s;
+    }
+
+    #paneli {
+        position: absolute;
+        top: 15vw;
+        color: #000;
+        font-size: 7vw;
+        font-family: regular;
+    }
+
+    #descripcion {
+        position: absolute;
+        top: 30vw;
+        color: #000;
+        font-size: 3vw;
+        font-family: mlight;
+    }
+
+    #animation:checked ~.casilla1 {
+        width: 80vw;
+        height: 30vw;
+        animation-name: cosa;
+        animation-duration: 0s;
+    }
+
+    @keyframes cosa {
+        from {
+            width: 80vw; height: 10vw;
+        }
+
+        to {
+            width: 80vw; height: 30vw;
+        }
+    }
+
 }
