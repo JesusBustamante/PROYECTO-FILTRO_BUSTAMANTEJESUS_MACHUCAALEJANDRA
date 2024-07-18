@@ -88,6 +88,18 @@
     width: 2vw;
 }
 
+#img3{
+    margin-top: -0.3vw;
+}
+
+#img5{
+    margin-top: -0.3vw;
+}
+
+#img2{
+    margin-top: -0.1vw;
+}
+
 .texto {
     position: absolute;
     display: flex;
@@ -332,13 +344,14 @@
     border-radius: 1vw;
     box-shadow: 1px 5px 10px rgba(255,224,210,255);
     outline: none;
+    text-align: center;
 }
 
 #boton{
     position: absolute;
     text-align: center;
     left: 43vw;
-    top: 45vw;
+    top: 43vw;
     width: 14vw;
     height: 3vw;
     border-radius: 2vw;
