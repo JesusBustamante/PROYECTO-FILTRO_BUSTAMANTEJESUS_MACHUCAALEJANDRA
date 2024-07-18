@@ -774,13 +774,6 @@
         background-color: white;
         animation-fill-mode: forwards;
     }
-
-    body {
-        display: grid;
-        padding-block: 128px;
-        place-content: center;
-        gap: 5vw;
-    }
     
     @keyframes lastpage {
         0% {z-index: -1;}
@@ -965,20 +958,20 @@
         font-size: 5vw;
     }
 
-    .casilla, .casilla1 {
+    .casilla1, .casilla2, .casilla3, .casilla4, .casilla5, .casilla6 {
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
-        flex-direction: column;
+        justify-content: center;
         width: 80vw;
         height: 10vw;
         object-fit: cover;
         border-radius: 2vw;
-        background-color: #ff6f2c;
+        background-color: #fff;
         margin-top: 5vw;
         border: 0.5vw solid #a3a3a3;
         font-family: mlight;
-        font-size: 6.5vw;
+        font-size: 4vw;
         text-align: center;
         transition: 1s;
     }
@@ -999,9 +992,9 @@
         font-family: mlight;
     }
 
-    #animation:checked ~.casilla1 {
+    #animation:checked ~.conjunto .casilla1 {
         width: 80vw;
-        height: 30vw;
+        height: 100vw;
         animation-name: cosa;
         animation-duration: 0s;
     }
@@ -1012,8 +1005,20 @@
         }
 
         to {
-            width: 80vw; height: 30vw;
+            width: 80vw; height: 100vw;
         }
+    }
+
+    #principal {
+        font-size: 5vw;
+    }
+
+    .casilla1 {
+        gap: 5vw;
+    }
+
+    #t {
+        font-family: regular;
     }
 
 }
