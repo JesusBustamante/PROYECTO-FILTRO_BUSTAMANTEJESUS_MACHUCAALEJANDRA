@@ -690,16 +690,15 @@
 @media (max-width: 800px) {
 
     .container1 {
-        position: fixed;
+        position: absolute;
         display: flex;
         align-items: center;
         justify-content: center;
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
-        max-height: 100vh;
-        overflow: hidden;
+        height: 108vh;
+        max-height: 108vh;
     }
 
     #img{
@@ -707,8 +706,7 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 400vw;
-        object-fit: cover;
+        height: 100vw;
         background: black;
     }
     
