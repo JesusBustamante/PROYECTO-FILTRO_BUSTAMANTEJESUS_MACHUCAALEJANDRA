@@ -673,6 +673,14 @@
     font-size: 1.3vw;
 }
 
+.conjunto, .boton {
+    display: none;
+}
+
+#paneli, #descripcion {
+    display: none;
+}
+
 }
 
 @media (max-width: 431px) {
@@ -685,7 +693,7 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 108vh;
+        height: 100vh;
         max-height: 100vh;
         overflow: hidden;
     }
@@ -696,6 +704,7 @@
         left: 0;
         width: 100vw;
         height: 400vw;
+        object-fit: cover;
         background: black;
     }
     
@@ -766,7 +775,7 @@
         top: 0vw;
         left: 0vw;
         width: 100vw;
-        height: 450vw;
+        height: 550vw;
         z-index: -1;
         animation-name: lastpage;
         animation-delay: 4s;
@@ -928,14 +937,14 @@
         position: absolute;
         top: 15vw;
         left: -2vw;
-        width: 100vw;
+        width: 102vw;
         height: 0vw;
         background-color: #000;
         z-index: 1;
     }
     
     #option:checked ~.hamburguer {
-        width: 100vw;
+        width: 102vw;
         height: 70vw;
         animation-name: nose;
         animation-duration: 0s;
@@ -943,8 +952,8 @@
     }
       
     @keyframes nose {
-        from { width: 100vw ; height: 0vw;}
-        to { width: 100vw; height: 70vw;}
+        from { width: 102vw ; height: 0vw;}
+        to { width: 102vw; height: 70vw;}
     }
 
     .nose {
@@ -953,7 +962,7 @@
 
     .conjunto {
         position: absolute;
-        top: 50vw;
+        top: 45vw;
         font-family: regular;
         font-size: 5vw;
     }
@@ -963,8 +972,8 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width: 80vw;
-        height: 10vw;
+        width: 90vw;
+        height: 75vw;
         object-fit: cover;
         border-radius: 2vw;
         background-color: #fff;
@@ -973,7 +982,6 @@
         font-family: mlight;
         font-size: 4vw;
         text-align: center;
-        transition: 1s;
     }
 
     #paneli {
@@ -986,38 +994,126 @@
 
     #descripcion {
         position: absolute;
+        text-align: center;
         top: 30vw;
         color: #000;
         font-size: 3vw;
         font-family: mlight;
     }
 
-    #animation:checked ~.conjunto .casilla1 {
-        width: 80vw;
-        height: 100vw;
-        animation-name: cosa;
-        animation-duration: 0s;
-    }
-
-    @keyframes cosa {
-        from {
-            width: 80vw; height: 10vw;
-        }
-
-        to {
-            width: 80vw; height: 100vw;
-        }
-    }
-
-    #principal {
-        font-size: 5vw;
-    }
-
-    .casilla1 {
+    .casilla1, .casilla2, .casilla3, .casilla4, .casilla5, .casilla6 {
         gap: 5vw;
     }
 
-    #t {
+    .boton {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 535vw;
+        left: 30vw;
+        width: 40vw;
+        height: 10vw;
+        border-radius: 5vw;
+        background-color: #ff6f2c;
+        color: #fff;
+        font-family: mlight;
+        font-size: 4vw;
+        text-decoration: none;
+    }
+
+    .circle1 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 114vw;
+        left: 45.5vw;
+        border: 0.5vw solid #ff0011;
+        width: 9vw;
+        height: 9vw;
+        border-radius: 50vw;
+        
+    }
+
+    .circle2 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 195vw;
+        left: 48vw;
+        border: 0.5vw solid #ff0011;
+        width: 9vw;
+        height: 9vw;
+        border-radius: 50vw;
+        
+    }
+
+    .circle3 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 275.5vw;
+        left: 44.5vw;
+        border: 0.5vw solid #00d010;
+        width: 9vw;
+        height: 9vw;
+        border-radius: 50vw;
+        
+    }
+
+    .circle4 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 356.5vw;
+        left: 46.5vw;
+        border: 0.5vw solid #ff0011;
+        width: 9vw;
+        height: 9vw;
+        border-radius: 50vw;
+        
+    }
+
+    .circle5 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 437vw;
+        left: 55.5vw;
+        border: 0.5vw solid #00d010;
+        width: 9vw;
+        height: 9vw;
+        border-radius: 50vw;
+        
+    }
+
+    .circle6 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 518vw;
+        left: 44.6vw;
+        border: 0.5vw solid #ff9f05;
+        width: 9vw;
+        height: 9vw;
+        border-radius: 50vw;
+        
+    }
+
+    .rayita {
+        margin-top: -9vw;
+        width: 1vw;
+        height: 1.5vw;
+        background-color: #fff;
+    }
+
+    #t0, #t1, #t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9 {
         font-family: regular;
     }
 
