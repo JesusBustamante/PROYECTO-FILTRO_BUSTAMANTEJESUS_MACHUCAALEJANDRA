@@ -44,11 +44,10 @@
     margin-top: 0.3vw;
 }
 
-#img9 {
-    position: absolute;
-    left: 95vw;
+#img9 { 
+    margin-top: 0.5vw;
+    margin-left: 12vw;
     width: 2.7vw;
-    top: 0;
 }
 
 #img8 {
@@ -136,12 +135,13 @@
 }
 
 #img{
-    width: 5.8vw;
-    height: 5vw;
-    clip-path: circle(40%);
+    position: absolute;
+    width: 4.3vw;
+    height: 4.3vw;
+    border-radius: 100vw;
     z-index: 1;
-    margin-left: -44.4vw;
-    margin-top: -1.4vw;
+    left: 25.7vw;
+    top: 9vw;
 }
 
 #cuadroText{
@@ -150,7 +150,7 @@
     width: 48vw;
     height: 4vw;
     font-size: 2vw;
-    border-radius: 2vw;
+    border-radius: 5vw;
     border: 0.15vw solid #ff6f2c;
     background: #F6F1F1;
     outline: none;
@@ -160,7 +160,7 @@
     display: none;
 }
 #cuadros{
-    margin-top: -1vw;
+    margin-top: 3vw;
     margin-left: 14vw;
 }
 #cuadrito{
@@ -360,9 +360,6 @@
 }
 .salida {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     top: 5vw;
     left: 3vw;
     width: 3vw;
@@ -371,8 +368,11 @@
     background-color: #ff6f2c;
 }
 
-.salida img {
+#flecha {
+    position: absolute; 
     width: 2vw;
+    top: 0.5vw;
+    left: 0.5vw;
 }
 
 }
@@ -451,7 +451,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 80vw;
-    margin-left: -9vw;
+    margin-left: -3vw;
     margin-top: 85vw;
     z-index: 4;
     opacity: 0;
@@ -558,7 +558,7 @@ body {
 .hamburguer {
     position: absolute;
     top: 15vw;
-    left: -2vw;
+    left: 0vw;
     width: 100vw;
     height: 0vw;
     background-color: #000;

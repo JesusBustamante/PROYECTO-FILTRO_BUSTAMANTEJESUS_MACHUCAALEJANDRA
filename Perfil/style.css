@@ -8,7 +8,7 @@
     src: url(font/Myriad\ Pro\ Light.otf);
 }
 
-@media (max-width: 1920px) and (min-width: 432px) {
+@media (max-width: 1920px) and (min-width: 801px) {
 
 body{
     overflow: hidden;
@@ -21,7 +21,7 @@ body{
     top: 0vw;
     left: 0vw;
     width: 100vw;
-    height: 53vw;
+    height: 108vh;
     background: linear-gradient(to bottom, #5a5a5a, black 75%);
 }
 
@@ -39,12 +39,14 @@ body{
 }
 
 .salida img {
+    margin-top: 0.3vw;
     width: 2vw;
 }
 
 #cerrar:checked ~#boton {
     opacity: 1;
 }
+
 #cerrar{
     display: none;
     margin-top: -44vw;
@@ -80,10 +82,11 @@ body{
 }
 
 #photo {
-    margin-left: -51vw;
+    position: absolute;
+    left: 40vw;
     width: 20vw;
     height: 45vw;
-    margin-top: -20vw;
+    top: -8vw;
 }
 
 #name {
@@ -207,7 +210,7 @@ body{
 }
 
 
-@media (max-width: 431px) {
+@media (max-width: 800px) {
 
     .container {
         position: absolute;

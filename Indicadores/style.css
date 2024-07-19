@@ -13,15 +13,27 @@
     src: url(font/MYRIADPRO-BOLD.woff);
 }
 
-@media (max-width: 1920px) and (min-width: 432px) {
+@media (max-width: 1920px) and (min-width: 801px) {
 
 .container1 {
-    position: fixed;
-    top: 0;
-    left: 0;
+    min-height: 100vh; 
+    overflow-y: auto;
+    position: relative;
+    top: -1vw;
+    left: -1vw;
     width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
+    height: 100vw;
+    margin-bottom: 0vw;
+    z-index: 1;
+}
+
+#container1.visible {
+    position: relative;
+    z-index: 1;
+}
+  
+#container1.visible ~ #container {
+    visibility: hidden;
 }
 
 #img{
@@ -29,7 +41,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 108vh;
     background: black;
 }
 
@@ -681,9 +693,13 @@
     display: none;
 }
 
+.circles1, .circles2, .circles3, .circles4, .circles5, .circles6 {
+    display: none;
 }
 
-@media (max-width: 431px) {
+}
+
+@media (max-width: 800px) {
 
     .container1 {
         position: fixed;
@@ -1022,7 +1038,7 @@
         text-decoration: none;
     }
 
-    .circle1 {
+    .circles1 {
         position: absolute;
         display: flex;
         align-items: center;
@@ -1036,7 +1052,7 @@
         
     }
 
-    .circle2 {
+    .circles2 {
         position: absolute;
         display: flex;
         align-items: center;
@@ -1050,7 +1066,7 @@
         
     }
 
-    .circle3 {
+    .circles3 {
         position: absolute;
         display: flex;
         align-items: center;
@@ -1064,7 +1080,7 @@
         
     }
 
-    .circle4 {
+    .circles4 {
         position: absolute;
         display: flex;
         align-items: center;
@@ -1078,7 +1094,7 @@
         
     }
 
-    .circle5 {
+    .circles5 {
         position: absolute;
         display: flex;
         align-items: center;
@@ -1092,7 +1108,7 @@
         
     }
 
-    .circle6 {
+    .circles6 {
         position: absolute;
         display: flex;
         align-items: center;

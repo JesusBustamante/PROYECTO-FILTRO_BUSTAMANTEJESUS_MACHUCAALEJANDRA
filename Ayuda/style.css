@@ -134,6 +134,7 @@
 }
 
 .salida img {
+    margin-top: 0.3vw;
     width: 2vw;
 }
 
@@ -359,10 +360,10 @@ section img {
 
     #img4 {
         position: absolute;
-        top: 6vw;
-        left: 47vw;
+        top: -12vw;
+        left: 40vw;
         width: 15vw;
-        transform: scale(3.5);
+        transform: scale(4.5);
         opacity: 1;
     }
 
@@ -371,6 +372,7 @@ section img {
     }
 
     .iconos {
+        position: absolute;
         display: flex;
         flex-direction: column;
         width: 80vw;

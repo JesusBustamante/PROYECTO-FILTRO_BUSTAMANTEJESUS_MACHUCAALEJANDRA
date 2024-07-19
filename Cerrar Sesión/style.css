@@ -12,7 +12,7 @@
     src: url(font/MYRIADPRO-BOLD.woff);
 }
 
-@media (max-width: 1920px) and (min-width: 432px) {
+@media (max-width: 1920px) and (min-width: 881px) {
 
 
 #contenedor{
@@ -79,7 +79,7 @@
     flex-direction: row;
     align-items: center;
     width: 75vw;
-    font-family: regular;
+    font-family: letra2;
     font-size: 1.3vw;
 }
 
@@ -148,6 +148,9 @@
 }
 
 #boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 2vw;
     margin-left: 11.5vw;
     background: #FF6F2C;
@@ -155,22 +158,23 @@
     height: 3vw;
 }
 
-#cerrar{
-    position: relative;
-    top: -3.5vw;
-    font-size: 1.4vw;
-    font-family: letra1;
-    color: white;
+#cerrar {
     text-decoration: none;
+    color: #fff;
+    font-family: letra1;
+    font-size: 1.5vw;
+}
+
+
+#adios {
+    display: none;
 }
 
 }
 
-@media (max-width: 431px) {
+@media (max-width: 880px) {
 
-    body {
-        overflow: hidden;
-    }
+
 
     #contenedor {
         position: absolute;
