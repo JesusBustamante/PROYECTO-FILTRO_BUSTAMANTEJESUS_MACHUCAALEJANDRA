@@ -227,4 +227,9 @@
         font-family: letra2;
     }
 
+    #regreso {
+        text-decoration: none;
+        color: white;
+    }
+
 }

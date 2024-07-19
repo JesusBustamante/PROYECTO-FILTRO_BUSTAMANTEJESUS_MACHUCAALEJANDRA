@@ -95,7 +95,9 @@
     font-family: letra1;
 }
 #usuario{
-    margin-top: 2vw;
+    position: absolute;
+    top: 19.5vw;
+    left: 9vw;
     width: 30vw;
     height: 2vw;
     border-radius: 0.8vw;
@@ -109,7 +111,9 @@
     font-family: letra1;
 }
 #contraseña{
-    margin-top: 2.5vw;
+    position: absolute;
+    top: 24.5vw;
+    left: 9vw;
     width: 30vw;
     height: 2vw;
     border-radius: 0.8vw;
@@ -132,7 +136,9 @@
     font-family: letra1;
 }
 #problemas{
-    margin-top: 6.5vw;
+    position: absolute;
+    top: 32vw;
+    left: 11vw;
     font-family: letra1;
     font-size: 0.7vw;
     color:  rgb(93, 90, 90);
