@@ -16,24 +16,12 @@
 @media (max-width: 1920px) and (min-width: 801px) {
 
 .container1 {
-    min-height: 100vh; 
-    overflow-y: auto;
-    position: relative;
+    position: absolute;
     top: -1vw;
     left: -1vw;
     width: 100vw;
-    height: 100vw;
-    margin-bottom: 0vw;
+    height: 108vh;
     z-index: 1;
-}
-
-#container1.visible {
-    position: relative;
-    z-index: 1;
-}
-  
-#container1.visible ~ #container {
-    visibility: hidden;
 }
 
 #img{
@@ -281,7 +269,7 @@
     flex-direction: row;
     align-items: center;
     width: 90vw;
-    height: 4vw;
+    height: 3vw;
     margin-left: -5vw;
     border: 0.15vw solid #a3a3a3;
     border-radius: 1.2vw;
@@ -334,8 +322,8 @@
 .circle1 {
     position: absolute;
     border: 0.4vw solid #ff0011;
-    width: 2.3vw;
-    height: 2.3vw;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50vw;
     left: 77.45vw;
 }
@@ -345,7 +333,7 @@
     flex-direction: row;
     align-items: center;
     width: 90vw;
-    height: 4vw;
+    height: 3vw;
     margin-top: 1vw;
     margin-left: -5vw;
     border: 0.15vw solid #a3a3a3;
@@ -401,7 +389,7 @@
     flex-direction: row;
     align-items: center;
     width: 90vw;
-    height: 4vw;
+    height: 3vw;
     margin-top: 1vw;
     margin-left: -5vw;
     border: 0.15vw solid #a3a3a3;
@@ -455,8 +443,8 @@
 .circle3 {
     position: absolute;
     border: 0.4vw solid #00d010;
-    width: 2.3vw;
-    height: 2.3vw;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50vw;
     left: 77.45vw;
 }
@@ -466,7 +454,7 @@
     flex-direction: row;
     align-items: center;
     width: 90vw;
-    height: 4vw;
+    height: 3vw;
     margin-top: 1vw;
     margin-left: -5vw;
     border: 0.15vw solid #a3a3a3;
@@ -522,7 +510,7 @@
     flex-direction: row;
     align-items: center;
     width: 90vw;
-    height: 4vw;
+    height: 3vw;
     margin-top: 1vw;
     margin-left: -5vw;
     border: 0.15vw solid #a3a3a3;
@@ -576,8 +564,8 @@
 .circle5 {
     position: absolute;
     border: 0.4vw solid #00d010;
-    width: 2.3vw;
-    height: 2.3vw;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50vw;
     left: 77.45vw;
 }
@@ -587,7 +575,7 @@
     flex-direction: row;
     align-items: center;
     width: 90vw;
-    height: 4vw;
+    height: 3vw;
     margin-top: 1vw;
     margin-left: -5vw;
     border: 0.15vw solid #a3a3a3;
@@ -641,8 +629,8 @@
 .circle6 {
     position: absolute;
     border: 0.4vw solid #ff9f05;
-    width: 2.3vw;
-    height: 2.3vw;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50vw;
     left: 77.45vw;
 }
@@ -652,18 +640,18 @@
     background-color: white;
     width: 0.4vw;
     height: 1vw;
-    left: 76.3vw;
-    top: -1.1vw;
+    left: 76.1vw;
+    top: -1vw;
 }
 
 .options {
     position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 3.5vw;
-    top: 16.6vw;
+    gap: 3.3vw;
+    top: 16.7vw;
     left: 93vw;
-    width: 2vw;
+    width: 1vw;
 }
 
 .buttom {
@@ -674,7 +662,7 @@
     width: 15vw;
     height: 3vw;
     border-radius: 20vw;
-    top: 47.5vw;
+    top: 43vw;
     background-color: #ff6f2c;
     font-family: mlight;
 }
